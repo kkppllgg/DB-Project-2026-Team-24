@@ -1,0 +1,1034 @@
++-----------+-------------------+----------+---------------------------------------+---------------+-------------------+-------------+
+| Year      | dep_name          | DRG_code | provider_name                         | Expected Cost | Additional Charge | Income      |
++-----------+-------------------+----------+---------------------------------------+---------------+-------------------+-------------+
+| 2025      | Cardiology        | S01Α     | Ergo Ασφαλιστική                      |          5400 |           5400.00 |    10800.00 |
+| 2025      | Cardiology        | S01Α     | All Providers                         |          5400 |           5400.00 |    10800.00 |
+| 2025      | Cardiology        | S21Χ     | Eurolife FFH                          |          2320 |           2320.00 |     4640.00 |
+| 2025      | Cardiology        | S21Χ     | All Providers                         |          2320 |           2320.00 |     4640.00 |
+| 2025      | Cardiology        | Β22Α     | Ergo Ασφαλιστική                      |          5450 |              0.00 |     5450.00 |
+| 2025      | Cardiology        | Β22Α     | All Providers                         |          5450 |              0.00 |     5450.00 |
+| 2025      | Cardiology        | Δ13Χ     | Ergo Ασφαλιστική                      |          9150 |           4575.00 |    13725.00 |
+| 2025      | Cardiology        | Δ13Χ     | All Providers                         |          9150 |           4575.00 |    13725.00 |
+| 2025      | Cardiology        | Δ23Μ     | Intersalonika                         |         28950 |          11580.00 |    40530.00 |
+| 2025      | Cardiology        | Δ23Μ     | All Providers                         |         28950 |          11580.00 |    40530.00 |
+| 2025      | Cardiology        | Η02Μα    | Generali Hellas                       |         51110 |           6012.94 |    57122.94 |
+| 2025      | Cardiology        | Η02Μα    | All Providers                         |         51110 |           6012.94 |    57122.94 |
+| 2025      | Cardiology        | Η05Χ     | Euroins                               |         13930 |           6965.00 |    20895.00 |
+| 2025      | Cardiology        | Η05Χ     | All Providers                         |         13930 |           6965.00 |    20895.00 |
+| 2025      | Cardiology        | Θ04Χ     | Anytime                               |         28480 |          14240.00 |    42720.00 |
+| 2025      | Cardiology        | Θ04Χ     | All Providers                         |         28480 |          14240.00 |    42720.00 |
+| 2025      | Cardiology        | Κ09Μα    | Prime Insurance                       |         64130 |           6413.00 |    70543.00 |
+| 2025      | Cardiology        | Κ09Μα    | All Providers                         |         64130 |           6413.00 |    70543.00 |
+| 2025      | Cardiology        | Κ10Μ     | Ευρωπαϊκή Πίστη                       |         41660 |              0.00 |    41660.00 |
+| 2025      | Cardiology        | Κ10Μ     | All Providers                         |         41660 |              0.00 |    41660.00 |
+| 2025      | Cardiology        | Κ11Μ     | Personal Insurance                    |         72920 |              0.00 |    72920.00 |
+| 2025      | Cardiology        | Κ11Μ     | All Providers                         |         72920 |              0.00 |    72920.00 |
+| 2025      | Cardiology        | Κ40Μ     | Prime Insurance                       |         20000 |              0.00 |    20000.00 |
+| 2025      | Cardiology        | Κ40Μ     | All Providers                         |         20000 |              0.00 |    20000.00 |
+| 2025      | Cardiology        | Κ46Χ     | Intersalonika                         |          4440 |           2220.00 |     6660.00 |
+| 2025      | Cardiology        | Κ46Χ     | All Providers                         |          4440 |           2220.00 |     6660.00 |
+| 2025      | Cardiology        | Κ47Α     | Eurolife FFH                          |         24230 |           8076.67 |    32306.67 |
+| 2025      | Cardiology        | Κ47Α     | All Providers                         |         24230 |           8076.67 |    32306.67 |
+| 2025      | Cardiology        | Μ03Μ     | NN Hellas                             |         63070 |              0.00 |    63070.00 |
+| 2025      | Cardiology        | Μ03Μ     | All Providers                         |         63070 |              0.00 |    63070.00 |
+| 2025      | Cardiology        | Μ12Χ     | NN Hellas                             |         16650 |              0.00 |    16650.00 |
+| 2025      | Cardiology        | Μ12Χ     | All Providers                         |         16650 |              0.00 |    16650.00 |
+| 2025      | Cardiology        | Ν21Μ     | Interamerican                         |         49600 |              0.00 |    49600.00 |
+| 2025      | Cardiology        | Ν21Μ     | All Providers                         |         49600 |              0.00 |    49600.00 |
+| 2025      | Cardiology        | Ο14Α     | Ορίζων Ασφαλιστική                    |          4060 |           8120.00 |    12180.00 |
+| 2025      | Cardiology        | Ο14Α     | All Providers                         |          4060 |           8120.00 |    12180.00 |
+| 2025      | Cardiology        | Υ09Χβ    | Groupama Ασφαλιστική                  |         10350 |          20700.00 |    31050.00 |
+| 2025      | Cardiology        | Υ09Χβ    | All Providers                         |         10350 |          20700.00 |    31050.00 |
+| 2025      | Cardiology        | Υ20Μα    | Euroins                               |         29340 |              0.00 |    29340.00 |
+| 2025      | Cardiology        | Υ20Μα    | All Providers                         |         29340 |              0.00 |    29340.00 |
+| 2025      | Cardiology        | Χ48Α     | Intersalonika                         |         32610 |              0.00 |    32610.00 |
+| 2025      | Cardiology        | Χ48Α     | All Providers                         |         32610 |              0.00 |    32610.00 |
+| 2025      | Cardiology        | All DRGs | All Providers                         |        577850 |          96622.61 |   674472.61 |
+| 2025      | Emergency         | Α34Χ     | Εθνική Ασφαλιστική                    |          6380 |           4253.33 |    10633.33 |
+| 2025      | Emergency         | Α34Χ     | All Providers                         |          6380 |           4253.33 |    10633.33 |
+| 2025      | Emergency         | Α36Α     | Euroins                               |         24120 |              0.00 |    24120.00 |
+| 2025      | Emergency         | Α36Α     | All Providers                         |         24120 |              0.00 |    24120.00 |
+| 2025      | Emergency         | Δ13Μ     | Eurolife FFH                          |         28560 |              0.00 |    28560.00 |
+| 2025      | Emergency         | Δ13Μ     | All Providers                         |         28560 |              0.00 |    28560.00 |
+| 2025      | Emergency         | Δ29Μ     | Groupama Ασφαλιστική                  |         21710 |              0.00 |    21710.00 |
+| 2025      | Emergency         | Δ29Μ     | All Providers                         |         21710 |              0.00 |    21710.00 |
+| 2025      | Emergency         | Η02Χ     | Εθνική Ασφαλιστική                    |         20790 |          10395.00 |    31185.00 |
+| 2025      | Emergency         | Η02Χ     | All Providers                         |         20790 |          10395.00 |    31185.00 |
+| 2025      | Emergency         | Θ24Χ     | Prime Insurance                       |          6690 |           6690.00 |    13380.00 |
+| 2025      | Emergency         | Θ24Χ     | All Providers                         |          6690 |           6690.00 |    13380.00 |
+| 2025      | Emergency         | Κ32Χ     | Interamerican                         |         10890 |              0.00 |    10890.00 |
+| 2025      | Emergency         | Κ32Χ     | All Providers                         |         10890 |              0.00 |    10890.00 |
+| 2025      | Emergency         | Κ33Α     | Interamerican                         |         31320 |              0.00 |    31320.00 |
+| 2025      | Emergency         | Κ33Α     | All Providers                         |         31320 |              0.00 |    31320.00 |
+| 2025      | Emergency         | Λ24Α     | Prime Insurance                       |          2880 |           2880.00 |     5760.00 |
+| 2025      | Emergency         | Λ24Α     | All Providers                         |          2880 |           2880.00 |     5760.00 |
+| 2025      | Emergency         | Μ65Χ     | Anytime                               |         12220 |           2444.00 |    14664.00 |
+| 2025      | Emergency         | Μ65Χ     | All Providers                         |         12220 |           2444.00 |    14664.00 |
+| 2025      | Emergency         | Μ72Μ     | Ορίζων Ασφαλιστική                    |         16810 |              0.00 |    16810.00 |
+| 2025      | Emergency         | Μ72Μ     | All Providers                         |         16810 |              0.00 |    16810.00 |
+| 2025      | Emergency         | Μ75Μ     | Ergo Ασφαλιστική                      |         14550 |           7275.00 |    21825.00 |
+| 2025      | Emergency         | Μ75Μ     | All Providers                         |         14550 |           7275.00 |    21825.00 |
+| 2025      | Emergency         | Ν29Μ     | Eurolife FFH                          |         12300 |           8200.00 |    20500.00 |
+| 2025      | Emergency         | Ν29Μ     | All Providers                         |         12300 |           8200.00 |    20500.00 |
+| 2025      | Emergency         | Ν31Χ     | Ατλαντική Ένωση                       |          2800 |              0.00 |     2800.00 |
+| 2025      | Emergency         | Ν31Χ     | All Providers                         |          2800 |              0.00 |     2800.00 |
+| 2025      | Emergency         | Ν41Μ     | Euroins                               |         18370 |              0.00 |    18370.00 |
+| 2025      | Emergency         | Ν41Μ     | All Providers                         |         18370 |              0.00 |    18370.00 |
+| 2025      | Emergency         | Π45Μ     | Eurolife FFH                          |         13380 |              0.00 |    13380.00 |
+| 2025      | Emergency         | Π45Μ     | All Providers                         |         13380 |              0.00 |    13380.00 |
+| 2025      | Emergency         | Π45Χ     | Prime Insurance                       |          6230 |           8306.67 |    14536.67 |
+| 2025      | Emergency         | Π45Χ     | All Providers                         |          6230 |           8306.67 |    14536.67 |
+| 2025      | Emergency         | Ρ20Α     | Euroins                               |         60230 |              0.00 |    60230.00 |
+| 2025      | Emergency         | Ρ20Α     | All Providers                         |         60230 |              0.00 |    60230.00 |
+| 2025      | Emergency         | Τ26Μγ    | Μινέττα Ασφαλιστική                   |         16440 |           5978.18 |    22418.18 |
+| 2025      | Emergency         | Τ26Μγ    | All Providers                         |         16440 |           5978.18 |    22418.18 |
+| 2025      | Emergency         | Υ06Χ     | Eurolife FFH                          |          8080 |              0.00 |     8080.00 |
+| 2025      | Emergency         | Υ06Χ     | All Providers                         |          8080 |              0.00 |     8080.00 |
+| 2025      | Emergency         | Υ08Μ     | Εθνική Ασφαλιστική                    |         12710 |              0.00 |    12710.00 |
+| 2025      | Emergency         | Υ08Μ     | All Providers                         |         12710 |              0.00 |    12710.00 |
+| 2025      | Emergency         | Φ25Μ     | NN Hellas                             |         12560 |              0.00 |    12560.00 |
+| 2025      | Emergency         | Φ25Μ     | All Providers                         |         12560 |              0.00 |    12560.00 |
+| 2025      | Emergency         | Φ26Μ     | Ορίζων Ασφαλιστική                    |         24600 |          10933.33 |    35533.33 |
+| 2025      | Emergency         | Φ26Μ     | All Providers                         |         24600 |          10933.33 |    35533.33 |
+| 2025      | Emergency         | Χ46Α     | Anytime                               |         41710 |           4171.00 |    45881.00 |
+| 2025      | Emergency         | Χ46Α     | All Providers                         |         41710 |           4171.00 |    45881.00 |
+| 2025      | Emergency         | All DRGs | All Providers                         |        426330 |          71526.51 |   497856.51 |
+| 2025      | Gastroenterology  | Α20Χ     | Anytime                               |         26380 |          10552.00 |    36932.00 |
+| 2025      | Gastroenterology  | Α20Χ     | All Providers                         |         26380 |          10552.00 |    36932.00 |
+| 2025      | Gastroenterology  | Γ06Μ     | Interamerican                         |         16490 |           8245.00 |    24735.00 |
+| 2025      | Gastroenterology  | Γ06Μ     | All Providers                         |         16490 |           8245.00 |    24735.00 |
+| 2025      | Gastroenterology  | Ε01Α     | Interamerican                         |        289070 |              0.00 |   289070.00 |
+| 2025      | Gastroenterology  | Ε01Α     | All Providers                         |        289070 |              0.00 |   289070.00 |
+| 2025      | Gastroenterology  | Κ03Χ     | Anytime                               |        117340 |              0.00 |   117340.00 |
+| 2025      | Gastroenterology  | Κ03Χ     | All Providers                         |        117340 |              0.00 |   117340.00 |
+| 2025      | Gastroenterology  | Κ08Χ     | Prime Insurance                       |         55610 |              0.00 |    55610.00 |
+| 2025      | Gastroenterology  | Κ08Χ     | All Providers                         |         55610 |              0.00 |    55610.00 |
+| 2025      | Gastroenterology  | Κ38Χ     | Generali Hellas                       |          6270 |          18810.00 |    25080.00 |
+| 2025      | Gastroenterology  | Κ38Χ     | All Providers                         |          6270 |          18810.00 |    25080.00 |
+| 2025      | Gastroenterology  | Λ23Α     | Interamerican                         |          2650 |          10600.00 |    13250.00 |
+| 2025      | Gastroenterology  | Λ23Α     | All Providers                         |          2650 |          10600.00 |    13250.00 |
+| 2025      | Gastroenterology  | Μ06Α     | Groupama Ασφαλιστική                  |        199800 |              0.00 |   199800.00 |
+| 2025      | Gastroenterology  | Μ06Α     | All Providers                         |        199800 |              0.00 |   199800.00 |
+| 2025      | Gastroenterology  | Μ71Μ     | AIG Hellas                            |         13230 |              0.00 |    13230.00 |
+| 2025      | Gastroenterology  | Μ71Μ     | All Providers                         |         13230 |              0.00 |    13230.00 |
+| 2025      | Gastroenterology  | Ν28Μ     | Ατλαντική Ένωση                       |         19070 |              0.00 |    19070.00 |
+| 2025      | Gastroenterology  | Ν28Μ     | All Providers                         |         19070 |              0.00 |    19070.00 |
+| 2025      | Gastroenterology  | Ν30Μα    | Generali Hellas                       |         34080 |              0.00 |    34080.00 |
+| 2025      | Gastroenterology  | Ν30Μα    | All Providers                         |         34080 |              0.00 |    34080.00 |
+| 2025      | Gastroenterology  | Π03Χα    | Ορίζων Ασφαλιστική                    |         28260 |          14130.00 |    42390.00 |
+| 2025      | Gastroenterology  | Π03Χα    | All Providers                         |         28260 |          14130.00 |    42390.00 |
+| 2025      | Gastroenterology  | Π12Μβ    | Ορίζων Ασφαλιστική                    |         19320 |           5520.00 |    24840.00 |
+| 2025      | Gastroenterology  | Π12Μβ    | All Providers                         |         19320 |           5520.00 |    24840.00 |
+| 2025      | Gastroenterology  | Σ01Χ     | Generali Hellas                       |         22360 |          11180.00 |    33540.00 |
+| 2025      | Gastroenterology  | Σ01Χ     | All Providers                         |         22360 |          11180.00 |    33540.00 |
+| 2025      | Gastroenterology  | Τ27Χ     | Μινέττα Ασφαλιστική                   |          4280 |              0.00 |     4280.00 |
+| 2025      | Gastroenterology  | Τ27Χ     | All Providers                         |          4280 |              0.00 |     4280.00 |
+| 2025      | Gastroenterology  | Χ41Α     | Prime Insurance                       |         30660 |              0.00 |    30660.00 |
+| 2025      | Gastroenterology  | Χ41Α     | All Providers                         |         30660 |              0.00 |    30660.00 |
+| 2025      | Gastroenterology  | Ω01Α     | Intersalonika                         |        240000 |         480000.00 |   720000.00 |
+| 2025      | Gastroenterology  | Ω01Α     | All Providers                         |        240000 |         480000.00 |   720000.00 |
+| 2025      | Gastroenterology  | All DRGs | All Providers                         |       1124870 |         559037.00 |  1683907.00 |
+| 2025      | Gynecology        | Α32Α     | Anytime                               |          8460 |           6345.00 |    14805.00 |
+| 2025      | Gynecology        | Α32Α     | All Providers                         |          8460 |           6345.00 |    14805.00 |
+| 2025      | Gynecology        | Α33Μβ    | NN Hellas                             |         10430 |              0.00 |    10430.00 |
+| 2025      | Gynecology        | Α33Μβ    | All Providers                         |         10430 |              0.00 |    10430.00 |
+| 2025      | Gynecology        | Γ11Α     | Prime Insurance                       |          7290 |              0.00 |     7290.00 |
+| 2025      | Gynecology        | Γ11Α     | All Providers                         |          7290 |              0.00 |     7290.00 |
+| 2025      | Gynecology        | Ζ02Χ     | Generali Hellas                       |         29790 |              0.00 |    29790.00 |
+| 2025      | Gynecology        | Ζ02Χ     | All Providers                         |         29790 |              0.00 |    29790.00 |
+| 2025      | Gynecology        | Ζ03Α     | Allianz Hellas                        |         23120 |           9248.00 |    32368.00 |
+| 2025      | Gynecology        | Ζ03Α     | All Providers                         |         23120 |           9248.00 |    32368.00 |
+| 2025      | Gynecology        | Θ24Χ     | Personal Insurance                    |          6690 |              0.00 |     6690.00 |
+| 2025      | Gynecology        | Θ24Χ     | All Providers                         |          6690 |              0.00 |     6690.00 |
+| 2025      | Gynecology        | Κ12Μ     | Allianz Hellas                        |         54650 |              0.00 |    54650.00 |
+| 2025      | Gynecology        | Κ12Μ     | All Providers                         |         54650 |              0.00 |    54650.00 |
+| 2025      | Gynecology        | Κ21Χ     | Generali Hellas                       |         14940 |              0.00 |    14940.00 |
+| 2025      | Gynecology        | Κ21Χ     | All Providers                         |         14940 |              0.00 |    14940.00 |
+| 2025      | Gynecology        | Λ04Μ     | Eurolife FFH                          |         18070 |           3614.00 |    21684.00 |
+| 2025      | Gynecology        | Λ04Μ     | All Providers                         |         18070 |           3614.00 |    21684.00 |
+| 2025      | Gynecology        | Μ04Χ     | NN Hellas                             |         66110 |              0.00 |    66110.00 |
+| 2025      | Gynecology        | Μ04Χ     | All Providers                         |         66110 |              0.00 |    66110.00 |
+| 2025      | Gynecology        | Μ60Α     | Anytime                               |         17200 |           2457.14 |    19657.14 |
+| 2025      | Gynecology        | Μ60Α     | All Providers                         |         17200 |           2457.14 |    19657.14 |
+| 2025      | Gynecology        | Μ61Μ     | Intersalonika                         |         22100 |              0.00 |    22100.00 |
+| 2025      | Gynecology        | Μ61Μ     | All Providers                         |         22100 |              0.00 |    22100.00 |
+| 2025      | Gynecology        | Μ71Χ     | Anytime                               |          4050 |           4050.00 |     8100.00 |
+| 2025      | Gynecology        | Μ71Χ     | All Providers                         |          4050 |           4050.00 |     8100.00 |
+| 2025      | Gynecology        | Ν23Α     | Anytime                               |         21090 |              0.00 |    21090.00 |
+| 2025      | Gynecology        | Ν23Α     | All Providers                         |         21090 |              0.00 |    21090.00 |
+| 2025      | Gynecology        | Ν24Μ     | Interamerican                         |         23890 |              0.00 |    23890.00 |
+| 2025      | Gynecology        | Ν24Μ     | All Providers                         |         23890 |              0.00 |    23890.00 |
+| 2025      | Gynecology        | Τ24Α     | Personal Insurance                    |         58180 |              0.00 |    58180.00 |
+| 2025      | Gynecology        | Τ24Α     | All Providers                         |         58180 |              0.00 |    58180.00 |
+| 2025      | Gynecology        | Υ25Μ     | Groupama Ασφαλιστική                  |         11280 |           1880.00 |    13160.00 |
+| 2025      | Gynecology        | Υ25Μ     | All Providers                         |         11280 |           1880.00 |    13160.00 |
+| 2025      | Gynecology        | Φ62Χ     | AIG Hellas                            |          3740 |              0.00 |     3740.00 |
+| 2025      | Gynecology        | Φ62Χ     | All Providers                         |          3740 |              0.00 |     3740.00 |
+| 2025      | Gynecology        | All DRGs | All Providers                         |        401080 |          27594.14 |   428674.14 |
+| 2025      | ICU               | Α01Μ     | Groupama Ασφαλιστική                  |         47010 |           3134.00 |    50144.00 |
+| 2025      | ICU               | Α01Μ     | All Providers                         |         47010 |           3134.00 |    50144.00 |
+| 2025      | ICU               | Α25Μ     | Generali Hellas                       |         17660 |              0.00 |    17660.00 |
+| 2025      | ICU               | Α25Μ     | All Providers                         |         17660 |              0.00 |    17660.00 |
+| 2025      | ICU               | Α30Χ     | Μινέττα Ασφαλιστική                   |          6070 |          12140.00 |    18210.00 |
+| 2025      | ICU               | Α30Χ     | All Providers                         |          6070 |          12140.00 |    18210.00 |
+| 2025      | ICU               | Δ09Α     | Ευρωπαϊκή Πίστη                       |          6880 |           3440.00 |    10320.00 |
+| 2025      | ICU               | Δ09Α     | All Providers                         |          6880 |           3440.00 |    10320.00 |
+| 2025      | ICU               | Δ13Μ     | Interamerican                         |         28560 |              0.00 |    28560.00 |
+| 2025      | ICU               | Δ13Μ     | All Providers                         |         28560 |              0.00 |    28560.00 |
+| 2025      | ICU               | Ε04Α     | Eurolife FFH                          |        300150 |              0.00 |   300150.00 |
+| 2025      | ICU               | Ε04Α     | All Providers                         |        300150 |              0.00 |   300150.00 |
+| 2025      | ICU               | Ε09Β     | Ευρωπαϊκή Πίστη                       |         96690 |              0.00 |    96690.00 |
+| 2025      | ICU               | Ε09Β     | All Providers                         |         96690 |              0.00 |    96690.00 |
+| 2025      | ICU               | Η06Χ     | Prime Insurance                       |         15560 |              0.00 |    15560.00 |
+| 2025      | ICU               | Η06Χ     | All Providers                         |         15560 |              0.00 |    15560.00 |
+| 2025      | ICU               | Κ15Μ     | Ατλαντική Ένωση                       |         27280 |              0.00 |    27280.00 |
+| 2025      | ICU               | Κ15Μ     | All Providers                         |         27280 |              0.00 |    27280.00 |
+| 2025      | ICU               | Κ20Α     | Ergo Ασφαλιστική                      |          7600 |          30400.00 |    38000.00 |
+| 2025      | ICU               | Κ20Α     | All Providers                         |          7600 |          30400.00 |    38000.00 |
+| 2025      | ICU               | Κ32Α     | Prime Insurance                       |         10430 |          10430.00 |    20860.00 |
+| 2025      | ICU               | Κ32Α     | All Providers                         |         10430 |          10430.00 |    20860.00 |
+| 2025      | ICU               | Κ33Χ     | Hellas Direct                         |          6690 |           4014.00 |    10704.00 |
+| 2025      | ICU               | Κ33Χ     | All Providers                         |          6690 |           4014.00 |    10704.00 |
+| 2025      | ICU               | Κ37Χ     | Intersalonika                         |          4590 |              0.00 |     4590.00 |
+| 2025      | ICU               | Κ37Χ     | All Providers                         |          4590 |              0.00 |     4590.00 |
+| 2025      | ICU               | Μ07Α     | Ευρωπαϊκή Πίστη                       |         52350 |           7478.57 |    59828.57 |
+| 2025      | ICU               | Μ07Α     | All Providers                         |         52350 |           7478.57 |    59828.57 |
+| 2025      | ICU               | Μ16Α     | Hellas Direct                         |         15880 |          23820.00 |    39700.00 |
+| 2025      | ICU               | Μ16Α     | All Providers                         |         15880 |          23820.00 |    39700.00 |
+| 2025      | ICU               | Μ19Χ     | Groupama Ασφαλιστική                  |         19040 |           9520.00 |    28560.00 |
+| 2025      | ICU               | Μ19Χ     | All Providers                         |         19040 |           9520.00 |    28560.00 |
+| 2025      | ICU               | Μ20Α     | Ergo Ασφαλιστική                      |         12860 |          25720.00 |    38580.00 |
+| 2025      | ICU               | Μ20Α     | All Providers                         |         12860 |          25720.00 |    38580.00 |
+| 2025      | ICU               | Μ63Μ     | NN Hellas                             |         11980 |           3422.86 |    15402.86 |
+| 2025      | ICU               | Μ63Μ     | All Providers                         |         11980 |           3422.86 |    15402.86 |
+| 2025      | ICU               | Ν27Μβ    | AIG Hellas                            |         13070 |              0.00 |    13070.00 |
+| 2025      | ICU               | Ν27Μβ    | Interamerican                         |         13070 |              0.00 |    13070.00 |
+| 2025      | ICU               | Ν27Μβ    | All Providers                         |         26140 |              0.00 |    26140.00 |
+| 2025      | ICU               | Ν30Α     | Εθνική Ασφαλιστική                    |          4200 |           4200.00 |     8400.00 |
+| 2025      | ICU               | Ν30Α     | All Providers                         |          4200 |           4200.00 |     8400.00 |
+| 2025      | ICU               | Ν34Χ     | Ergo Ασφαλιστική                      |         10120 |              0.00 |    10120.00 |
+| 2025      | ICU               | Ν34Χ     | All Providers                         |         10120 |              0.00 |    10120.00 |
+| 2025      | ICU               | Π10Χ     | Ορίζων Ασφαλιστική                    |          8680 |              0.00 |     8680.00 |
+| 2025      | ICU               | Π10Χ     | All Providers                         |          8680 |              0.00 |     8680.00 |
+| 2025      | ICU               | Π27Α     | Eurolife FFH                          |          2650 |           2650.00 |     5300.00 |
+| 2025      | ICU               | Π27Α     | All Providers                         |          2650 |           2650.00 |     5300.00 |
+| 2025      | ICU               | Σ01Μ     | Allianz Hellas                        |         85580 |              0.00 |    85580.00 |
+| 2025      | ICU               | Σ01Μ     | All Providers                         |         85580 |              0.00 |    85580.00 |
+| 2025      | ICU               | Σ21Χ     | Euroins                               |         18860 |              0.00 |    18860.00 |
+| 2025      | ICU               | Σ21Χ     | All Providers                         |         18860 |              0.00 |    18860.00 |
+| 2025      | ICU               | Τ27Μα    | Ορίζων Ασφαλιστική                    |         30760 |              0.00 |    30760.00 |
+| 2025      | ICU               | Τ27Μα    | All Providers                         |         30760 |              0.00 |    30760.00 |
+| 2025      | ICU               | Υ04Χβ    | Allianz Hellas                        |         16050 |              0.00 |    16050.00 |
+| 2025      | ICU               | Υ04Χβ    | All Providers                         |         16050 |              0.00 |    16050.00 |
+| 2025      | ICU               | Χ42Μ     | Allianz Hellas                        |         32680 |              0.00 |    32680.00 |
+| 2025      | ICU               | Χ42Μ     | All Providers                         |         32680 |              0.00 |    32680.00 |
+| 2025      | ICU               | Ω14Α     | Hellas Direct                         |          7400 |          11100.00 |    18500.00 |
+| 2025      | ICU               | Ω14Α     | All Providers                         |          7400 |          11100.00 |    18500.00 |
+| 2025      | ICU               | All DRGs | All Providers                         |        930400 |         151469.43 |  1081869.43 |
+| 2025      | Internal Medicine | Α29Χ     | Ergo Ασφαλιστική                      |          3970 |           5955.00 |     9925.00 |
+| 2025      | Internal Medicine | Α29Χ     | All Providers                         |          3970 |           5955.00 |     9925.00 |
+| 2025      | Internal Medicine | Α32Α     | Personal Insurance                    |          8460 |              0.00 |     8460.00 |
+| 2025      | Internal Medicine | Α32Α     | All Providers                         |          8460 |              0.00 |     8460.00 |
+| 2025      | Internal Medicine | Α33Μα    | Ergo Ασφαλιστική                      |         20230 |              0.00 |    20230.00 |
+| 2025      | Internal Medicine | Α33Μα    | All Providers                         |         20230 |              0.00 |    20230.00 |
+| 2025      | Internal Medicine | Δ07Α     | Prime Insurance                       |          6050 |          24200.00 |    30250.00 |
+| 2025      | Internal Medicine | Δ07Α     | All Providers                         |          6050 |          24200.00 |    30250.00 |
+| 2025      | Internal Medicine | Δ22Χ     | Personal Insurance                    |          6880 |           6880.00 |    13760.00 |
+| 2025      | Internal Medicine | Δ22Χ     | All Providers                         |          6880 |           6880.00 |    13760.00 |
+| 2025      | Internal Medicine | Κ40Χ     | Ορίζων Ασφαλιστική                    |          7940 |           5293.33 |    13233.33 |
+| 2025      | Internal Medicine | Κ40Χ     | All Providers                         |          7940 |           5293.33 |    13233.33 |
+| 2025      | Internal Medicine | Κ47Α     | Prime Insurance                       |         24230 |           8076.67 |    32306.67 |
+| 2025      | Internal Medicine | Κ47Α     | All Providers                         |         24230 |           8076.67 |    32306.67 |
+| 2025      | Internal Medicine | Λ03Χ     | Euroins                               |          8860 |              0.00 |     8860.00 |
+| 2025      | Internal Medicine | Λ03Χ     | All Providers                         |          8860 |              0.00 |     8860.00 |
+| 2025      | Internal Medicine | Μ04Μ     | Generali Hellas                       |         70420 |           7824.44 |    78244.44 |
+| 2025      | Internal Medicine | Μ04Μ     | All Providers                         |         70420 |           7824.44 |    78244.44 |
+| 2025      | Internal Medicine | Μ21Α     | Ατλαντική Ένωση                       |         10520 |          10520.00 |    21040.00 |
+| 2025      | Internal Medicine | Μ21Α     | All Providers                         |         10520 |          10520.00 |    21040.00 |
+| 2025      | Internal Medicine | Μ63Μ     | Ατλαντική Ένωση                       |         11980 |              0.00 |    11980.00 |
+| 2025      | Internal Medicine | Μ63Μ     | All Providers                         |         11980 |              0.00 |    11980.00 |
+| 2025      | Internal Medicine | Μ67Μ     | Generali Hellas                       |         24280 |           4046.67 |    28326.67 |
+| 2025      | Internal Medicine | Μ67Μ     | All Providers                         |         24280 |           4046.67 |    28326.67 |
+| 2025      | Internal Medicine | Μ77Μ     | Prime Insurance                       |         22570 |           3472.31 |    26042.31 |
+| 2025      | Internal Medicine | Μ77Μ     | All Providers                         |         22570 |           3472.31 |    26042.31 |
+| 2025      | Internal Medicine | Ν01Μ     | Prime Insurance                       |         25280 |          14445.71 |    39725.71 |
+| 2025      | Internal Medicine | Ν01Μ     | All Providers                         |         25280 |          14445.71 |    39725.71 |
+| 2025      | Internal Medicine | Ν30Χ     | Eurolife FFH                          |         11910 |              0.00 |    11910.00 |
+| 2025      | Internal Medicine | Ν30Χ     | All Providers                         |         11910 |              0.00 |    11910.00 |
+| 2025      | Internal Medicine | Ο02Α     | Ευρωπαϊκή Πίστη                       |         16110 |              0.00 |    16110.00 |
+| 2025      | Internal Medicine | Ο02Α     | All Providers                         |         16110 |              0.00 |    16110.00 |
+| 2025      | Internal Medicine | Ο17Α     | Μινέττα Ασφαλιστική                   |         24230 |              0.00 |    24230.00 |
+| 2025      | Internal Medicine | Ο17Α     | All Providers                         |         24230 |              0.00 |    24230.00 |
+| 2025      | Internal Medicine | Π11Α     | AIG Hellas                            |          5660 |           8490.00 |    14150.00 |
+| 2025      | Internal Medicine | Π11Α     | All Providers                         |          5660 |           8490.00 |    14150.00 |
+| 2025      | Internal Medicine | Ρ10Μα    | Ορίζων Ασφαλιστική                    |         71180 |              0.00 |    71180.00 |
+| 2025      | Internal Medicine | Ρ10Μα    | All Providers                         |         71180 |              0.00 |    71180.00 |
+| 2025      | Internal Medicine | Σ20Μ     | AIG Hellas                            |         74350 |              0.00 |    74350.00 |
+| 2025      | Internal Medicine | Σ20Μ     | All Providers                         |         74350 |              0.00 |    74350.00 |
+| 2025      | Internal Medicine | Τ03Α     | Generali Hellas                       |        168460 |              0.00 |   168460.00 |
+| 2025      | Internal Medicine | Τ03Α     | All Providers                         |        168460 |              0.00 |   168460.00 |
+| 2025      | Internal Medicine | Τ25Μα    | Allianz Hellas                        |         58720 |              0.00 |    58720.00 |
+| 2025      | Internal Medicine | Τ25Μα    | All Providers                         |         58720 |              0.00 |    58720.00 |
+| 2025      | Internal Medicine | Υ20Α     | Groupama Ασφαλιστική                  |          7670 |          11505.00 |    19175.00 |
+| 2025      | Internal Medicine | Υ20Α     | All Providers                         |          7670 |          11505.00 |    19175.00 |
+| 2025      | Internal Medicine | Φ25Μ     | Anytime                               |         12560 |           9420.00 |    21980.00 |
+| 2025      | Internal Medicine | Φ25Μ     | All Providers                         |         12560 |           9420.00 |    21980.00 |
+| 2025      | Internal Medicine | Φ62Χ     | Hellas Direct                         |          3740 |           3740.00 |     7480.00 |
+| 2025      | Internal Medicine | Φ62Χ     | All Providers                         |          3740 |           3740.00 |     7480.00 |
+| 2025      | Internal Medicine | All DRGs | All Providers                         |        706260 |         123869.13 |   830129.13 |
+| 2025      | Microbiology      | Α01Μ     | Prime Insurance                       |         47010 |              0.00 |    47010.00 |
+| 2025      | Microbiology      | Α01Μ     | All Providers                         |         47010 |              0.00 |    47010.00 |
+| 2025      | Microbiology      | Α21Χ     | Εθνική Ασφαλιστική                    |         10350 |           5175.00 |    15525.00 |
+| 2025      | Microbiology      | Α21Χ     | All Providers                         |         10350 |           5175.00 |    15525.00 |
+| 2025      | Microbiology      | Α33Μβ    | Anytime                               |         10430 |           6258.00 |    16688.00 |
+| 2025      | Microbiology      | Α33Μβ    | All Providers                         |         10430 |           6258.00 |    16688.00 |
+| 2025      | Microbiology      | Β01Μ     | Ατλαντική Ένωση                       |         35530 |              0.00 |    35530.00 |
+| 2025      | Microbiology      | Β01Μ     | All Providers                         |         35530 |              0.00 |    35530.00 |
+| 2025      | Microbiology      | Β01Χ     | Ατλαντική Ένωση                       |         28920 |          28920.00 |    57840.00 |
+| 2025      | Microbiology      | Β01Χ     | All Providers                         |         28920 |          28920.00 |    57840.00 |
+| 2025      | Microbiology      | Β02Μ     | Interamerican                         |         17190 |              0.00 |    17190.00 |
+| 2025      | Microbiology      | Β02Μ     | All Providers                         |         17190 |              0.00 |    17190.00 |
+| 2025      | Microbiology      | Ε01Α     | Eurolife FFH                          |        289070 |              0.00 |   289070.00 |
+| 2025      | Microbiology      | Ε01Α     | All Providers                         |        289070 |              0.00 |   289070.00 |
+| 2025      | Microbiology      | Θ24Μ     | Intersalonika                         |         18290 |              0.00 |    18290.00 |
+| 2025      | Microbiology      | Θ24Μ     | All Providers                         |         18290 |              0.00 |    18290.00 |
+| 2025      | Microbiology      | Κ38Χ     | Eurolife FFH                          |          6270 |          18810.00 |    25080.00 |
+| 2025      | Microbiology      | Κ38Χ     | All Providers                         |          6270 |          18810.00 |    25080.00 |
+| 2025      | Microbiology      | Κ46Χ     | AIG Hellas                            |          4440 |              0.00 |     4440.00 |
+| 2025      | Microbiology      | Κ46Χ     | All Providers                         |          4440 |              0.00 |     4440.00 |
+| 2025      | Microbiology      | Μ32Χ     | Allianz Hellas                        |         91470 |              0.00 |    91470.00 |
+| 2025      | Microbiology      | Μ32Χ     | All Providers                         |         91470 |              0.00 |    91470.00 |
+| 2025      | Microbiology      | Ν27Χ     | NN Hellas                             |          4820 |           6426.67 |    11246.67 |
+| 2025      | Microbiology      | Ν27Χ     | All Providers                         |          4820 |           6426.67 |    11246.67 |
+| 2025      | Microbiology      | Ν30Α     | NN Hellas                             |          4200 |           8400.00 |    12600.00 |
+| 2025      | Microbiology      | Ν30Α     | All Providers                         |          4200 |           8400.00 |    12600.00 |
+| 2025      | Microbiology      | Ν36Μ     | Ergo Ασφαλιστική                      |         14860 |              0.00 |    14860.00 |
+| 2025      | Microbiology      | Ν36Μ     | All Providers                         |         14860 |              0.00 |    14860.00 |
+| 2025      | Microbiology      | Ν36Χ     | Ατλαντική Ένωση                       |          4820 |           9640.00 |    14460.00 |
+| 2025      | Microbiology      | Ν36Χ     | All Providers                         |          4820 |           9640.00 |    14460.00 |
+| 2025      | Microbiology      | Ξ02Μ     | Generali Hellas                       |         46550 |              0.00 |    46550.00 |
+| 2025      | Microbiology      | Ξ02Μ     | All Providers                         |         46550 |              0.00 |    46550.00 |
+| 2025      | Microbiology      | Π10Μ     | Intersalonika                         |         16970 |           6788.00 |    23758.00 |
+| 2025      | Microbiology      | Π10Μ     | All Providers                         |         16970 |           6788.00 |    23758.00 |
+| 2025      | Microbiology      | Ρ23Α     | Interamerican                         |          4280 |           2140.00 |     6420.00 |
+| 2025      | Microbiology      | Ρ23Α     | All Providers                         |          4280 |           2140.00 |     6420.00 |
+| 2025      | Microbiology      | Υ03Χ     | Groupama Ασφαλιστική                  |         29920 |              0.00 |    29920.00 |
+| 2025      | Microbiology      | Υ03Χ     | All Providers                         |         29920 |              0.00 |    29920.00 |
+| 2025      | Microbiology      | Υ04Χβ    | Εθνική Ασφαλιστική                    |         16050 |              0.00 |    16050.00 |
+| 2025      | Microbiology      | Υ04Χβ    | All Providers                         |         16050 |              0.00 |    16050.00 |
+| 2025      | Microbiology      | Φ25Χ     | Interamerican                         |          7000 |          21000.00 |    28000.00 |
+| 2025      | Microbiology      | Φ25Χ     | All Providers                         |          7000 |          21000.00 |    28000.00 |
+| 2025      | Microbiology      | Φ64Χ     | Anytime                               |          3030 |          12120.00 |    15150.00 |
+| 2025      | Microbiology      | Φ64Χ     | All Providers                         |          3030 |          12120.00 |    15150.00 |
+| 2025      | Microbiology      | Ω35Α     | Personal Insurance                    |          2650 |          10600.00 |    13250.00 |
+| 2025      | Microbiology      | Ω35Α     | All Providers                         |          2650 |          10600.00 |    13250.00 |
+| 2025      | Microbiology      | All DRGs | All Providers                         |        714120 |         136277.67 |   850397.67 |
+| 2025      | Neurology         | Α11Χ     | Intersalonika                         |         36350 |              0.00 |    36350.00 |
+| 2025      | Neurology         | Α11Χ     | All Providers                         |         36350 |              0.00 |    36350.00 |
+| 2025      | Neurology         | Α34Μα    | Ορίζων Ασφαλιστική                    |         19770 |              0.00 |    19770.00 |
+| 2025      | Neurology         | Α34Μα    | All Providers                         |         19770 |              0.00 |    19770.00 |
+| 2025      | Neurology         | Β04Α     | Ergo Ασφαλιστική                      |          6520 |          26080.00 |    32600.00 |
+| 2025      | Neurology         | Β04Α     | All Providers                         |          6520 |          26080.00 |    32600.00 |
+| 2025      | Neurology         | Ζ02Χ     | Ατλαντική Ένωση                       |         29790 |              0.00 |    29790.00 |
+| 2025      | Neurology         | Ζ02Χ     | All Providers                         |         29790 |              0.00 |    29790.00 |
+| 2025      | Neurology         | Κ07Μβ    | Ατλαντική Ένωση                       |         72790 |          27296.25 |   100086.25 |
+| 2025      | Neurology         | Κ07Μβ    | All Providers                         |         72790 |          27296.25 |   100086.25 |
+| 2025      | Neurology         | Κ46Μ     | Interamerican                         |         12450 |           4150.00 |    16600.00 |
+| 2025      | Neurology         | Κ46Μ     | All Providers                         |         12450 |           4150.00 |    16600.00 |
+| 2025      | Neurology         | Ν37Α     | AIG Hellas                            |          3350 |           1675.00 |     5025.00 |
+| 2025      | Neurology         | Ν37Α     | All Providers                         |          3350 |           1675.00 |     5025.00 |
+| 2025      | Neurology         | Ο20Μ     | Prime Insurance                       |         18600 |              0.00 |    18600.00 |
+| 2025      | Neurology         | Ο20Μ     | All Providers                         |         18600 |              0.00 |    18600.00 |
+| 2025      | Neurology         | Ρ10Μβ    | Ορίζων Ασφαλιστική                    |         26880 |              0.00 |    26880.00 |
+| 2025      | Neurology         | Ρ10Μβ    | All Providers                         |         26880 |              0.00 |    26880.00 |
+| 2025      | Neurology         | Σ04Χ     | Ευρωπαϊκή Πίστη                       |          9660 |          14490.00 |    24150.00 |
+| 2025      | Neurology         | Σ04Χ     | All Providers                         |          9660 |          14490.00 |    24150.00 |
+| 2025      | Neurology         | Υ06Μ     | Groupama Ασφαλιστική                  |         23810 |           5291.11 |    29101.11 |
+| 2025      | Neurology         | Υ06Μ     | All Providers                         |         23810 |           5291.11 |    29101.11 |
+| 2025      | Neurology         | Υ25Χ     | Ergo Ασφαλιστική                      |          4050 |           6075.00 |    10125.00 |
+| 2025      | Neurology         | Υ25Χ     | All Providers                         |          4050 |           6075.00 |    10125.00 |
+| 2025      | Neurology         | Φ26Χ     | Εθνική Ασφαλιστική                    |          8280 |           4140.00 |    12420.00 |
+| 2025      | Neurology         | Φ26Χ     | All Providers                         |          8280 |           4140.00 |    12420.00 |
+| 2025      | Neurology         | Φ63Χ     | Intersalonika                         |          5060 |              0.00 |     5060.00 |
+| 2025      | Neurology         | Φ63Χ     | All Providers                         |          5060 |              0.00 |     5060.00 |
+| 2025      | Neurology         | All DRGs | All Providers                         |        277360 |          89197.36 |   366557.36 |
+| 2025      | Ophthalmology     | G01Μα    | Generali Hellas                       |         57090 |              0.00 |    57090.00 |
+| 2025      | Ophthalmology     | G01Μα    | All Providers                         |         57090 |              0.00 |    57090.00 |
+| 2025      | Ophthalmology     | Β02Χ     | Hellas Direct                         |         10070 |           3356.67 |    13426.67 |
+| 2025      | Ophthalmology     | Β02Χ     | All Providers                         |         10070 |           3356.67 |    13426.67 |
+| 2025      | Ophthalmology     | Γ06Χ     | Interamerican                         |         12640 |              0.00 |    12640.00 |
+| 2025      | Ophthalmology     | Γ06Χ     | All Providers                         |         12640 |              0.00 |    12640.00 |
+| 2025      | Ophthalmology     | Ε08Χ     | Ergo Ασφαλιστική                      |         36830 |              0.00 |    36830.00 |
+| 2025      | Ophthalmology     | Ε08Χ     | All Providers                         |         36830 |              0.00 |    36830.00 |
+| 2025      | Ophthalmology     | Η02Μα    | AIG Hellas                            |         51110 |              0.00 |    51110.00 |
+| 2025      | Ophthalmology     | Η02Μα    | All Providers                         |         51110 |              0.00 |    51110.00 |
+| 2025      | Ophthalmology     | Κ11Μ     | Ατλαντική Ένωση                       |         72920 |              0.00 |    72920.00 |
+| 2025      | Ophthalmology     | Κ11Μ     | All Providers                         |         72920 |              0.00 |    72920.00 |
+| 2025      | Ophthalmology     | Μ17Χ     | Hellas Direct                         |         17640 |          26460.00 |    44100.00 |
+| 2025      | Ophthalmology     | Μ17Χ     | All Providers                         |         17640 |          26460.00 |    44100.00 |
+| 2025      | Ophthalmology     | Ν02Χ     | Anytime                               |         38360 |              0.00 |    38360.00 |
+| 2025      | Ophthalmology     | Ν02Χ     | All Providers                         |         38360 |              0.00 |    38360.00 |
+| 2025      | Ophthalmology     | Ν10Α     | Εθνική Ασφαλιστική                    |          1630 |           6520.00 |     8150.00 |
+| 2025      | Ophthalmology     | Ν10Α     | All Providers                         |          1630 |           6520.00 |     8150.00 |
+| 2025      | Ophthalmology     | Ν38Χ     | Ορίζων Ασφαλιστική                    |          8790 |              0.00 |     8790.00 |
+| 2025      | Ophthalmology     | Ν38Χ     | All Providers                         |          8790 |              0.00 |     8790.00 |
+| 2025      | Ophthalmology     | Ξ02Χ     | Prime Insurance                       |          7810 |          15620.00 |    23430.00 |
+| 2025      | Ophthalmology     | Ξ02Χ     | All Providers                         |          7810 |          15620.00 |    23430.00 |
+| 2025      | Ophthalmology     | Ο20Μ     | Euroins                               |         18600 |              0.00 |    18600.00 |
+| 2025      | Ophthalmology     | Ο20Μ     | All Providers                         |         18600 |              0.00 |    18600.00 |
+| 2025      | Ophthalmology     | Ο23Α     | Eurolife FFH                          |          4200 |           8400.00 |    12600.00 |
+| 2025      | Ophthalmology     | Ο23Α     | All Providers                         |          4200 |           8400.00 |    12600.00 |
+| 2025      | Ophthalmology     | Π04Μβ    | Ατλαντική Ένωση                       |         27100 |              0.00 |    27100.00 |
+| 2025      | Ophthalmology     | Π04Μβ    | All Providers                         |         27100 |              0.00 |    27100.00 |
+| 2025      | Ophthalmology     | Π42Α     | Hellas Direct                         |         10970 |           4388.00 |    15358.00 |
+| 2025      | Ophthalmology     | Π42Α     | All Providers                         |         10970 |           4388.00 |    15358.00 |
+| 2025      | Ophthalmology     | Σ01Χ     | AIG Hellas                            |         22360 |           7453.33 |    29813.33 |
+| 2025      | Ophthalmology     | Σ01Χ     | All Providers                         |         22360 |           7453.33 |    29813.33 |
+| 2025      | Ophthalmology     | Τ25Μγ    | Μινέττα Ασφαλιστική                   |         31580 |              0.00 |    31580.00 |
+| 2025      | Ophthalmology     | Τ25Μγ    | All Providers                         |         31580 |              0.00 |    31580.00 |
+| 2025      | Ophthalmology     | All DRGs | All Providers                         |        429700 |          72198.00 |   501898.00 |
+| 2025      | Orthopedics       | Α33Μα    | Εθνική Ασφαλιστική                    |         20230 |              0.00 |    20230.00 |
+| 2025      | Orthopedics       | Α33Μα    | All Providers                         |         20230 |              0.00 |    20230.00 |
+| 2025      | Orthopedics       | Δ29Μ     | Prime Insurance                       |         21710 |              0.00 |    21710.00 |
+| 2025      | Orthopedics       | Δ29Μ     | All Providers                         |         21710 |              0.00 |    21710.00 |
+| 2025      | Orthopedics       | Ε11Χ     | Groupama Ασφαλιστική                  |         53020 |           8836.67 |    61856.67 |
+| 2025      | Orthopedics       | Ε11Χ     | All Providers                         |         53020 |           8836.67 |    61856.67 |
+| 2025      | Orthopedics       | Κ01Μ     | Anytime                               |        162150 |              0.00 |   162150.00 |
+| 2025      | Orthopedics       | Κ01Μ     | All Providers                         |        162150 |              0.00 |   162150.00 |
+| 2025      | Orthopedics       | Κ42Μ     | Prime Insurance                       |         20540 |              0.00 |    20540.00 |
+| 2025      | Orthopedics       | Κ42Μ     | All Providers                         |         20540 |              0.00 |    20540.00 |
+| 2025      | Orthopedics       | Κ43Χ     | Generali Hellas                       |          3970 |           7940.00 |    11910.00 |
+| 2025      | Orthopedics       | Κ43Χ     | All Providers                         |          3970 |           7940.00 |    11910.00 |
+| 2025      | Orthopedics       | Μ28Μ     | Prime Insurance                       |         26390 |              0.00 |    26390.00 |
+| 2025      | Orthopedics       | Μ28Μ     | All Providers                         |         26390 |              0.00 |    26390.00 |
+| 2025      | Orthopedics       | Ν01Μ     | Ευρωπαϊκή Πίστη                       |         25280 |           3611.43 |    28891.43 |
+| 2025      | Orthopedics       | Ν01Μ     | All Providers                         |         25280 |           3611.43 |    28891.43 |
+| 2025      | Orthopedics       | Ξ01Α     | Hellas Direct                         |         34760 |              0.00 |    34760.00 |
+| 2025      | Orthopedics       | Ξ01Α     | All Providers                         |         34760 |              0.00 |    34760.00 |
+| 2025      | Orthopedics       | Π04Μα    | Groupama Ασφαλιστική                  |         48470 |              0.00 |    48470.00 |
+| 2025      | Orthopedics       | Π04Μα    | All Providers                         |         48470 |              0.00 |    48470.00 |
+| 2025      | Orthopedics       | Π40Χ     | Groupama Ασφαλιστική                  |          6770 |           3385.00 |    10155.00 |
+| 2025      | Orthopedics       | Π40Χ     | All Providers                         |          6770 |           3385.00 |    10155.00 |
+| 2025      | Orthopedics       | Υ02Χ     | Ergo Ασφαλιστική                      |         11890 |           5945.00 |    17835.00 |
+| 2025      | Orthopedics       | Υ02Χ     | All Providers                         |         11890 |           5945.00 |    17835.00 |
+| 2025      | Orthopedics       | Υ27Μ     | Prime Insurance                       |         16730 |              0.00 |    16730.00 |
+| 2025      | Orthopedics       | Υ27Μ     | All Providers                         |         16730 |              0.00 |    16730.00 |
+| 2025      | Orthopedics       | Ω01Α     | Εθνική Ασφαλιστική                    |        240000 |         720000.00 |   960000.00 |
+| 2025      | Orthopedics       | Ω01Α     | All Providers                         |        240000 |         720000.00 |   960000.00 |
+| 2025      | Orthopedics       | All DRGs | All Providers                         |        691910 |         749718.10 |  1441628.10 |
+| 2025      | Pediatrics        | S21Χ     | Ατλαντική Ένωση                       |          2320 |           4640.00 |     6960.00 |
+| 2025      | Pediatrics        | S21Χ     | All Providers                         |          2320 |           4640.00 |     6960.00 |
+| 2025      | Pediatrics        | W10Α     | Ευρωπαϊκή Πίστη                       |         20140 |              0.00 |    20140.00 |
+| 2025      | Pediatrics        | W10Α     | All Providers                         |         20140 |              0.00 |    20140.00 |
+| 2025      | Pediatrics        | Α20Χ     | Euroins                               |         26380 |              0.00 |    26380.00 |
+| 2025      | Pediatrics        | Α20Χ     | All Providers                         |         26380 |              0.00 |    26380.00 |
+| 2025      | Pediatrics        | Α36Α     | AIG Hellas                            |         24120 |           1722.86 |    25842.86 |
+| 2025      | Pediatrics        | Α36Α     | All Providers                         |         24120 |           1722.86 |    25842.86 |
+| 2025      | Pediatrics        | Β05Α     | Groupama Ασφαλιστική                  |          4580 |          13740.00 |    18320.00 |
+| 2025      | Pediatrics        | Β05Α     | All Providers                         |          4580 |          13740.00 |    18320.00 |
+| 2025      | Pediatrics        | Δ08Μ     | Μινέττα Ασφαλιστική                   |         22940 |              0.00 |    22940.00 |
+| 2025      | Pediatrics        | Δ08Μ     | All Providers                         |         22940 |              0.00 |    22940.00 |
+| 2025      | Pediatrics        | Ζ01Α     | Eurolife FFH                          |        360680 |              0.00 |   360680.00 |
+| 2025      | Pediatrics        | Ζ01Α     | All Providers                         |        360680 |              0.00 |   360680.00 |
+| 2025      | Pediatrics        | Θ05Μ     | Prime Insurance                       |         25870 |           3233.75 |    29103.75 |
+| 2025      | Pediatrics        | Θ05Μ     | All Providers                         |         25870 |           3233.75 |    29103.75 |
+| 2025      | Pediatrics        | Θ21Α     | Allianz Hellas                        |         25990 |              0.00 |    25990.00 |
+| 2025      | Pediatrics        | Θ21Α     | All Providers                         |         25990 |              0.00 |    25990.00 |
+| 2025      | Pediatrics        | Μ73Χ     | Euroins                               |          5840 |           1460.00 |     7300.00 |
+| 2025      | Pediatrics        | Μ73Χ     | All Providers                         |          5840 |           1460.00 |     7300.00 |
+| 2025      | Pediatrics        | Μ75Μ     | Μινέττα Ασφαλιστική                   |         14550 |           1818.75 |    16368.75 |
+| 2025      | Pediatrics        | Μ75Μ     | All Providers                         |         14550 |           1818.75 |    16368.75 |
+| 2025      | Pediatrics        | Ξ22Α     | Euroins                               |          5140 |              0.00 |     5140.00 |
+| 2025      | Pediatrics        | Ξ22Α     | All Providers                         |          5140 |              0.00 |     5140.00 |
+| 2025      | Pediatrics        | Π43Α     | Ευρωπαϊκή Πίστη                       |          3350 |           1675.00 |     5025.00 |
+| 2025      | Pediatrics        | Π43Α     | All Providers                         |          3350 |           1675.00 |     5025.00 |
+| 2025      | Pediatrics        | Υ24Α     | Generali Hellas                       |          3890 |           1945.00 |     5835.00 |
+| 2025      | Pediatrics        | Υ24Α     | All Providers                         |          3890 |           1945.00 |     5835.00 |
+| 2025      | Pediatrics        | Χ44Α     | NN Hellas                             |         11520 |              0.00 |    11520.00 |
+| 2025      | Pediatrics        | Χ44Α     | All Providers                         |         11520 |              0.00 |    11520.00 |
+| 2025      | Pediatrics        | Χ46Α     | Euroins                               |         41710 |              0.00 |    41710.00 |
+| 2025      | Pediatrics        | Χ46Α     | All Providers                         |         41710 |              0.00 |    41710.00 |
+| 2025      | Pediatrics        | All DRGs | All Providers                         |        599020 |          30235.36 |   629255.36 |
+| 2025      | Pulmonology       | Β02Χ     | Hellas Direct                         |         10070 |              0.00 |    10070.00 |
+| 2025      | Pulmonology       | Β02Χ     | All Providers                         |         10070 |              0.00 |    10070.00 |
+| 2025      | Pulmonology       | Γ07Α     | Εθνική Ασφαλιστική                    |          7420 |          14840.00 |    22260.00 |
+| 2025      | Pulmonology       | Γ07Α     | All Providers                         |          7420 |          14840.00 |    22260.00 |
+| 2025      | Pulmonology       | Δ14Α     | Hellas Direct                         |         41980 |          10495.00 |    52475.00 |
+| 2025      | Pulmonology       | Δ14Α     | All Providers                         |         41980 |          10495.00 |    52475.00 |
+| 2025      | Pulmonology       | Δ22Μ     | Eurolife FFH                          |          9650 |              0.00 |     9650.00 |
+| 2025      | Pulmonology       | Δ22Μ     | All Providers                         |          9650 |              0.00 |     9650.00 |
+| 2025      | Pulmonology       | Δ27Χ     | Personal Insurance                    |          1990 |           1990.00 |     3980.00 |
+| 2025      | Pulmonology       | Δ27Χ     | All Providers                         |          1990 |           1990.00 |     3980.00 |
+| 2025      | Pulmonology       | Η02Μα    | Intersalonika                         |         51110 |              0.00 |    51110.00 |
+| 2025      | Pulmonology       | Η02Μα    | All Providers                         |         51110 |              0.00 |    51110.00 |
+| 2025      | Pulmonology       | Θ20Μ     | AIG Hellas                            |         17350 |           6506.25 |    23856.25 |
+| 2025      | Pulmonology       | Θ20Μ     | All Providers                         |         17350 |           6506.25 |    23856.25 |
+| 2025      | Pulmonology       | Κ34Μ     | Euroins                               |         22330 |           6870.77 |    29200.77 |
+| 2025      | Pulmonology       | Κ34Μ     | All Providers                         |         22330 |           6870.77 |    29200.77 |
+| 2025      | Pulmonology       | Μ09Χ     | Εθνική Ασφαλιστική                    |         97830 |          41927.14 |   139757.14 |
+| 2025      | Pulmonology       | Μ09Χ     | All Providers                         |         97830 |          41927.14 |   139757.14 |
+| 2025      | Pulmonology       | Μ19Χ     | Prime Insurance                       |         19040 |          19040.00 |    38080.00 |
+| 2025      | Pulmonology       | Μ19Χ     | All Providers                         |         19040 |          19040.00 |    38080.00 |
+| 2025      | Pulmonology       | Μ30Α     | Generali Hellas                       |          8910 |           8910.00 |    17820.00 |
+| 2025      | Pulmonology       | Μ30Α     | All Providers                         |          8910 |           8910.00 |    17820.00 |
+| 2025      | Pulmonology       | Μ61Χ     | Ergo Ασφαλιστική                      |          8560 |           2140.00 |    10700.00 |
+| 2025      | Pulmonology       | Μ61Χ     | All Providers                         |          8560 |           2140.00 |    10700.00 |
+| 2025      | Pulmonology       | Μ74Α     | AIG Hellas                            |          3500 |           7000.00 |    10500.00 |
+| 2025      | Pulmonology       | Μ74Α     | All Providers                         |          3500 |           7000.00 |    10500.00 |
+| 2025      | Pulmonology       | Ν04Χ     | Ατλαντική Ένωση                       |         24700 |          18525.00 |    43225.00 |
+| 2025      | Pulmonology       | Ν04Χ     | All Providers                         |         24700 |          18525.00 |    43225.00 |
+| 2025      | Pulmonology       | Ν06Μ     | Anytime                               |         32970 |           2536.15 |    35506.15 |
+| 2025      | Pulmonology       | Ν06Μ     | All Providers                         |         32970 |           2536.15 |    35506.15 |
+| 2025      | Pulmonology       | Ν20Χ     | Intersalonika                         |         25760 |              0.00 |    25760.00 |
+| 2025      | Pulmonology       | Ν20Χ     | All Providers                         |         25760 |              0.00 |    25760.00 |
+| 2025      | Pulmonology       | Ν42Μα    | Anytime                               |         58050 |              0.00 |    58050.00 |
+| 2025      | Pulmonology       | Ν42Μα    | All Providers                         |         58050 |              0.00 |    58050.00 |
+| 2025      | Pulmonology       | Ν68Χ     | Ergo Ασφαλιστική                      |          5650 |           8475.00 |    14125.00 |
+| 2025      | Pulmonology       | Ν68Χ     | All Providers                         |          5650 |           8475.00 |    14125.00 |
+| 2025      | Pulmonology       | Ο10Α     | Ευρωπαϊκή Πίστη                       |          6500 |          19500.00 |    26000.00 |
+| 2025      | Pulmonology       | Ο10Α     | All Providers                         |          6500 |          19500.00 |    26000.00 |
+| 2025      | Pulmonology       | Π26Χ     | Intersalonika                         |         12450 |              0.00 |    12450.00 |
+| 2025      | Pulmonology       | Π26Χ     | All Providers                         |         12450 |              0.00 |    12450.00 |
+| 2025      | Pulmonology       | Ρ10Χ     | Interamerican                         |         14730 |           2104.29 |    16834.29 |
+| 2025      | Pulmonology       | Ρ10Χ     | All Providers                         |         14730 |           2104.29 |    16834.29 |
+| 2025      | Pulmonology       | Σ02Χβ    | Ορίζων Ασφαλιστική                    |         20560 |              0.00 |    20560.00 |
+| 2025      | Pulmonology       | Σ02Χβ    | All Providers                         |         20560 |              0.00 |    20560.00 |
+| 2025      | Pulmonology       | Τ23Α     | Eurolife FFH                          |         73590 |              0.00 |    73590.00 |
+| 2025      | Pulmonology       | Τ23Α     | All Providers                         |         73590 |              0.00 |    73590.00 |
+| 2025      | Pulmonology       | Τ25Χ     | Eurolife FFH                          |         26460 |              0.00 |    26460.00 |
+| 2025      | Pulmonology       | Τ25Χ     | All Providers                         |         26460 |              0.00 |    26460.00 |
+| 2025      | Pulmonology       | Υ03Χ     | Ergo Ασφαλιστική                      |         29920 |              0.00 |    29920.00 |
+| 2025      | Pulmonology       | Υ03Χ     | All Providers                         |         29920 |              0.00 |    29920.00 |
+| 2025      | Pulmonology       | Υ22Χ     | Groupama Ασφαλιστική                  |          5450 |          10900.00 |    16350.00 |
+| 2025      | Pulmonology       | Υ22Χ     | All Providers                         |          5450 |          10900.00 |    16350.00 |
+| 2025      | Pulmonology       | Φ24Χ     | Eurolife FFH                          |          9340 |          14010.00 |    23350.00 |
+| 2025      | Pulmonology       | Φ24Χ     | All Providers                         |          9340 |          14010.00 |    23350.00 |
+| 2025      | Pulmonology       | All DRGs | All Providers                         |        645870 |         195769.60 |   841639.60 |
+| 2025      | Radiology         | W10Α     | Anytime                               |         20140 |              0.00 |    20140.00 |
+| 2025      | Radiology         | W10Α     | All Providers                         |         20140 |              0.00 |    20140.00 |
+| 2025      | Radiology         | Α26Χ     | Ατλαντική Ένωση                       |          6070 |           8093.33 |    14163.33 |
+| 2025      | Radiology         | Α26Χ     | All Providers                         |          6070 |           8093.33 |    14163.33 |
+| 2025      | Radiology         | Δ27Χ     | Personal Insurance                    |          1990 |           7960.00 |     9950.00 |
+| 2025      | Radiology         | Δ27Χ     | All Providers                         |          1990 |           7960.00 |     9950.00 |
+| 2025      | Radiology         | Ζ02Χ     | AIG Hellas                            |         29790 |              0.00 |    29790.00 |
+| 2025      | Radiology         | Ζ02Χ     | All Providers                         |         29790 |              0.00 |    29790.00 |
+| 2025      | Radiology         | Η23Χ     | Εθνική Ασφαλιστική                    |          7860 |           5240.00 |    13100.00 |
+| 2025      | Radiology         | Η23Χ     | All Providers                         |          7860 |           5240.00 |    13100.00 |
+| 2025      | Radiology         | Θ23Χ     | Μινέττα Ασφαλιστική                   |         16200 |          32400.00 |    48600.00 |
+| 2025      | Radiology         | Θ23Χ     | All Providers                         |         16200 |          32400.00 |    48600.00 |
+| 2025      | Radiology         | Κ05Μ     | Prime Insurance                       |        100230 |          11136.67 |   111366.67 |
+| 2025      | Radiology         | Κ05Μ     | All Providers                         |        100230 |          11136.67 |   111366.67 |
+| 2025      | Radiology         | Κ09Χ     | Euroins                               |         23860 |          23860.00 |    47720.00 |
+| 2025      | Radiology         | Κ09Χ     | All Providers                         |         23860 |          23860.00 |    47720.00 |
+| 2025      | Radiology         | Κ10Μ     | Allianz Hellas                        |         41660 |              0.00 |    41660.00 |
+| 2025      | Radiology         | Κ10Μ     | All Providers                         |         41660 |              0.00 |    41660.00 |
+| 2025      | Radiology         | Κ12Μ     | Interamerican                         |         54650 |              0.00 |    54650.00 |
+| 2025      | Radiology         | Κ12Μ     | All Providers                         |         54650 |              0.00 |    54650.00 |
+| 2025      | Radiology         | Κ36Χ     | Eurolife FFH                          |          3740 |              0.00 |     3740.00 |
+| 2025      | Radiology         | Κ36Χ     | All Providers                         |          3740 |              0.00 |     3740.00 |
+| 2025      | Radiology         | Μ01Μ     | Ergo Ασφαλιστική                      |        140200 |              0.00 |   140200.00 |
+| 2025      | Radiology         | Μ01Μ     | All Providers                         |        140200 |              0.00 |   140200.00 |
+| 2025      | Radiology         | Μ08Μ     | Anytime                               |         44490 |              0.00 |    44490.00 |
+| 2025      | Radiology         | Μ08Μ     | All Providers                         |         44490 |              0.00 |    44490.00 |
+| 2025      | Radiology         | Μ08Χ     | Allianz Hellas                        |         30140 |           6697.78 |    36837.78 |
+| 2025      | Radiology         | Μ08Χ     | All Providers                         |         30140 |           6697.78 |    36837.78 |
+| 2025      | Radiology         | Ν24Μ     | Personal Insurance                    |         23890 |              0.00 |    23890.00 |
+| 2025      | Radiology         | Ν24Μ     | All Providers                         |         23890 |              0.00 |    23890.00 |
+| 2025      | Radiology         | Ν38Μ     | AIG Hellas                            |         23270 |              0.00 |    23270.00 |
+| 2025      | Radiology         | Ν38Μ     | All Providers                         |         23270 |              0.00 |    23270.00 |
+| 2025      | Radiology         | Ρ24Μα    | Ευρωπαϊκή Πίστη                       |         37730 |              0.00 |    37730.00 |
+| 2025      | Radiology         | Ρ24Μα    | All Providers                         |         37730 |              0.00 |    37730.00 |
+| 2025      | Radiology         | Υ03Μβ    | Ευρωπαϊκή Πίστη                       |         44260 |              0.00 |    44260.00 |
+| 2025      | Radiology         | Υ03Μβ    | All Providers                         |         44260 |              0.00 |    44260.00 |
+| 2025      | Radiology         | Υ20Μα    | Groupama Ασφαλιστική                  |         29340 |              0.00 |    29340.00 |
+| 2025      | Radiology         | Υ20Μα    | All Providers                         |         29340 |              0.00 |    29340.00 |
+| 2025      | Radiology         | Φ01Α     | Generali Hellas                       |        122040 |              0.00 |   122040.00 |
+| 2025      | Radiology         | Φ01Α     | All Providers                         |        122040 |              0.00 |   122040.00 |
+| 2025      | Radiology         | Φ40Α     | Euroins                               |         36490 |              0.00 |    36490.00 |
+| 2025      | Radiology         | Φ40Α     | All Providers                         |         36490 |              0.00 |    36490.00 |
+| 2025      | Radiology         | All DRGs | All Providers                         |        838040 |          95387.78 |   933427.78 |
+| 2025      | Surgery           | Δ24Μ     | Ergo Ασφαλιστική                      |         16190 |              0.00 |    16190.00 |
+| 2025      | Surgery           | Δ24Μ     | All Providers                         |         16190 |              0.00 |    16190.00 |
+| 2025      | Surgery           | Δ25Μ     | Interamerican                         |         11050 |           7366.67 |    18416.67 |
+| 2025      | Surgery           | Δ25Μ     | All Providers                         |         11050 |           7366.67 |    18416.67 |
+| 2025      | Surgery           | Ζ03Α     | Personal Insurance                    |         23120 |              0.00 |    23120.00 |
+| 2025      | Surgery           | Ζ03Α     | All Providers                         |         23120 |              0.00 |    23120.00 |
+| 2025      | Surgery           | Η05Μ     | Μινέττα Ασφαλιστική                   |         45330 |          12951.43 |    58281.43 |
+| 2025      | Surgery           | Η05Μ     | All Providers                         |         45330 |          12951.43 |    58281.43 |
+| 2025      | Surgery           | Η42Χ     | Hellas Direct                         |          7080 |           9440.00 |    16520.00 |
+| 2025      | Surgery           | Η42Χ     | All Providers                         |          7080 |           9440.00 |    16520.00 |
+| 2025      | Surgery           | Κ08Χ     | Interamerican                         |         55610 |              0.00 |    55610.00 |
+| 2025      | Surgery           | Κ08Χ     | All Providers                         |         55610 |              0.00 |    55610.00 |
+| 2025      | Surgery           | Κ12Μ     | Euroins                               |         54650 |              0.00 |    54650.00 |
+| 2025      | Surgery           | Κ12Μ     | All Providers                         |         54650 |              0.00 |    54650.00 |
+| 2025      | Surgery           | Κ18Χ     | Εθνική Ασφαλιστική                    |         11460 |          17190.00 |    28650.00 |
+| 2025      | Surgery           | Κ18Χ     | All Providers                         |         11460 |          17190.00 |    28650.00 |
+| 2025      | Surgery           | Κ32Χ     | Personal Insurance                    |         10890 |              0.00 |    10890.00 |
+| 2025      | Surgery           | Κ32Χ     | All Providers                         |         10890 |              0.00 |    10890.00 |
+| 2025      | Surgery           | Κ35Μ     | Hellas Direct                         |         15020 |           6437.14 |    21457.14 |
+| 2025      | Surgery           | Κ35Μ     | All Providers                         |         15020 |           6437.14 |    21457.14 |
+| 2025      | Surgery           | Κ45Χ     | Generali Hellas                       |          5210 |           5210.00 |    10420.00 |
+| 2025      | Surgery           | Κ45Χ     | All Providers                         |          5210 |           5210.00 |    10420.00 |
+| 2025      | Surgery           | Λ04Χ     | Anytime                               |          5710 |          11420.00 |    17130.00 |
+| 2025      | Surgery           | Λ04Χ     | All Providers                         |          5710 |          11420.00 |    17130.00 |
+| 2025      | Surgery           | Μ12Χ     | Intersalonika                         |         16650 |              0.00 |    16650.00 |
+| 2025      | Surgery           | Μ12Χ     | All Providers                         |         16650 |              0.00 |    16650.00 |
+| 2025      | Surgery           | Μ27Χ     | Interamerican                         |          9020 |          13530.00 |    22550.00 |
+| 2025      | Surgery           | Μ27Χ     | All Providers                         |          9020 |          13530.00 |    22550.00 |
+| 2025      | Surgery           | Ξ20Μ     | Anytime                               |         19450 |          11114.29 |    30564.29 |
+| 2025      | Surgery           | Ξ20Μ     | All Providers                         |         19450 |          11114.29 |    30564.29 |
+| 2025      | Surgery           | Π07Μ     | Euroins                               |         15500 |          12400.00 |    27900.00 |
+| 2025      | Surgery           | Π07Μ     | All Providers                         |         15500 |          12400.00 |    27900.00 |
+| 2025      | Surgery           | Π26Μ     | Eurolife FFH                          |         33380 |              0.00 |    33380.00 |
+| 2025      | Surgery           | Π26Μ     | All Providers                         |         33380 |              0.00 |    33380.00 |
+| 2025      | Surgery           | Σ21Χ     | Personal Insurance                    |         18860 |              0.00 |    18860.00 |
+| 2025      | Surgery           | Σ21Χ     | All Providers                         |         18860 |              0.00 |    18860.00 |
+| 2025      | Surgery           | Τ25Μβ    | Ergo Ασφαλιστική                      |         41450 |           4145.00 |    45595.00 |
+| 2025      | Surgery           | Τ25Μβ    | All Providers                         |         41450 |           4145.00 |    45595.00 |
+| 2025      | Surgery           | Υ20Α     | Prime Insurance                       |          7670 |           3835.00 |    11505.00 |
+| 2025      | Surgery           | Υ20Α     | All Providers                         |          7670 |           3835.00 |    11505.00 |
+| 2025      | Surgery           | Φ40Α     | Groupama Ασφαλιστική                  |         36490 |          20851.43 |    57341.43 |
+| 2025      | Surgery           | Φ40Α     | All Providers                         |         36490 |          20851.43 |    57341.43 |
+| 2025      | Surgery           | All DRGs | All Providers                         |        459790 |         135890.96 |   595680.96 |
+| 2025      | Urology           | Α10Χ     | Ευρωπαϊκή Πίστη                       |         46270 |              0.00 |    46270.00 |
+| 2025      | Urology           | Α10Χ     | All Providers                         |         46270 |              0.00 |    46270.00 |
+| 2025      | Urology           | Α20Χ     | Ευρωπαϊκή Πίστη                       |         26380 |              0.00 |    26380.00 |
+| 2025      | Urology           | Α20Χ     | All Providers                         |         26380 |              0.00 |    26380.00 |
+| 2025      | Urology           | Α27Χ     | Personal Insurance                    |          3500 |           7000.00 |    10500.00 |
+| 2025      | Urology           | Α27Χ     | All Providers                         |          3500 |           7000.00 |    10500.00 |
+| 2025      | Urology           | Α29Μ     | Allianz Hellas                        |          8720 |           8720.00 |    17440.00 |
+| 2025      | Urology           | Α29Μ     | All Providers                         |          8720 |           8720.00 |    17440.00 |
+| 2025      | Urology           | Β20Χ     | Eurolife FFH                          |          4130 |           6195.00 |    10325.00 |
+| 2025      | Urology           | Β20Χ     | All Providers                         |          4130 |           6195.00 |    10325.00 |
+| 2025      | Urology           | Γ20Χ     | Ατλαντική Ένωση                       |          7550 |              0.00 |     7550.00 |
+| 2025      | Urology           | Γ20Χ     | All Providers                         |          7550 |              0.00 |     7550.00 |
+| 2025      | Urology           | Δ27Μ     | Ορίζων Ασφαλιστική                    |          7080 |              0.00 |     7080.00 |
+| 2025      | Urology           | Δ27Μ     | All Providers                         |          7080 |              0.00 |     7080.00 |
+| 2025      | Urology           | Ε09Γ     | Ατλαντική Ένωση                       |        107060 |              0.00 |   107060.00 |
+| 2025      | Urology           | Ε09Γ     | All Providers                         |        107060 |              0.00 |   107060.00 |
+| 2025      | Urology           | Η41Χ     | Hellas Direct                         |          8720 |           2180.00 |    10900.00 |
+| 2025      | Urology           | Η41Χ     | All Providers                         |          8720 |           2180.00 |    10900.00 |
+| 2025      | Urology           | Κ09Μα    | Eurolife FFH                          |         64130 |              0.00 |    64130.00 |
+| 2025      | Urology           | Κ09Μα    | All Providers                         |         64130 |              0.00 |    64130.00 |
+| 2025      | Urology           | Κ22Α     | Eurolife FFH                          |         77530 |              0.00 |    77530.00 |
+| 2025      | Urology           | Κ22Α     | All Providers                         |         77530 |              0.00 |    77530.00 |
+| 2025      | Urology           | Μ01Μ     | Hellas Direct                         |        140200 |           5608.00 |   145808.00 |
+| 2025      | Urology           | Μ01Μ     | All Providers                         |        140200 |           5608.00 |   145808.00 |
+| 2025      | Urology           | Μ04Μ     | Personal Insurance                    |         70420 |          31297.78 |   101717.78 |
+| 2025      | Urology           | Μ04Μ     | All Providers                         |         70420 |          31297.78 |   101717.78 |
+| 2025      | Urology           | Μ79Χ     | Ευρωπαϊκή Πίστη                       |         13700 |              0.00 |    13700.00 |
+| 2025      | Urology           | Μ79Χ     | All Providers                         |         13700 |              0.00 |    13700.00 |
+| 2025      | Urology           | Ν04Χ     | Generali Hellas                       |         24700 |           6175.00 |    30875.00 |
+| 2025      | Urology           | Ν04Χ     | All Providers                         |         24700 |           6175.00 |    30875.00 |
+| 2025      | Urology           | Ν06Χ     | Ergo Ασφαλιστική                      |          9690 |          14535.00 |    24225.00 |
+| 2025      | Urology           | Ν06Χ     | All Providers                         |          9690 |          14535.00 |    24225.00 |
+| 2025      | Urology           | Ν27Μβ    | Hellas Direct                         |         13070 |              0.00 |    13070.00 |
+| 2025      | Urology           | Ν27Μβ    | All Providers                         |         13070 |              0.00 |    13070.00 |
+| 2025      | Urology           | Σ21Μ     | Μινέττα Ασφαλιστική                   |         37820 |              0.00 |    37820.00 |
+| 2025      | Urology           | Σ21Μ     | All Providers                         |         37820 |              0.00 |    37820.00 |
+| 2025      | Urology           | Υ09Χα    | Generali Hellas                       |         19190 |          19190.00 |    38380.00 |
+| 2025      | Urology           | Υ09Χα    | All Providers                         |         19190 |          19190.00 |    38380.00 |
+| 2025      | Urology           | All DRGs | All Providers                         |        689860 |         100900.78 |   790760.78 |
+| 2025      | All Departments   | All DRGs | All Providers                         |       9512460 |        2635694.43 | 12148154.43 |
+| 2026      | Cardiology        | Α34Μβ    | Intersalonika                         |         13930 |              0.00 |    13930.00 |
+| 2026      | Cardiology        | Α34Μβ    | All Providers                         |         13930 |              0.00 |    13930.00 |
+| 2026      | Cardiology        | Ε08Χ     | Personal Insurance                    |         36830 |              0.00 |    36830.00 |
+| 2026      | Cardiology        | Ε08Χ     | All Providers                         |         36830 |              0.00 |    36830.00 |
+| 2026      | Cardiology        | Θ04Μ     | Intersalonika                         |         43780 |          10945.00 |    54725.00 |
+| 2026      | Cardiology        | Θ04Μ     | All Providers                         |         43780 |          10945.00 |    54725.00 |
+| 2026      | Cardiology        | Θ04Χ     | Euroins                               |         28480 |              0.00 |    28480.00 |
+| 2026      | Cardiology        | Θ04Χ     | All Providers                         |         28480 |              0.00 |    28480.00 |
+| 2026      | Cardiology        | Λ02Χ     | Interamerican                         |         11750 |          15666.67 |    27416.67 |
+| 2026      | Cardiology        | Λ02Χ     | All Providers                         |         11750 |          15666.67 |    27416.67 |
+| 2026      | Cardiology        | Μ77Χ     | Anytime                               |         10580 |              0.00 |    10580.00 |
+| 2026      | Cardiology        | Μ77Χ     | All Providers                         |         10580 |              0.00 |    10580.00 |
+| 2026      | Cardiology        | Ο13Α     | Allianz Hellas                        |          3360 |           3360.00 |     6720.00 |
+| 2026      | Cardiology        | Ο13Α     | All Providers                         |          3360 |           3360.00 |     6720.00 |
+| 2026      | Cardiology        | Π05Χ     | Μινέττα Ασφαλιστική                   |         13790 |              0.00 |    13790.00 |
+| 2026      | Cardiology        | Π05Χ     | All Providers                         |         13790 |              0.00 |    13790.00 |
+| 2026      | Cardiology        | All DRGs | All Providers                         |        162500 |          29971.67 |   192471.67 |
+| 2026      | Emergency         | Α22Μβ    | Eurolife FFH                          |         11440 |              0.00 |    11440.00 |
+| 2026      | Emergency         | Α22Μβ    | All Providers                         |         11440 |              0.00 |    11440.00 |
+| 2026      | Emergency         | Β02Χ     | Eurolife FFH                          |         10070 |          13426.67 |    23496.67 |
+| 2026      | Emergency         | Β02Χ     | All Providers                         |         10070 |          13426.67 |    23496.67 |
+| 2026      | Emergency         | Ε06Χγ    | Interamerican                         |         82610 |          22029.33 |   104639.33 |
+| 2026      | Emergency         | Ε06Χγ    | All Providers                         |         82610 |          22029.33 |   104639.33 |
+| 2026      | Emergency         | Ε08Μ     | Hellas Direct                         |        100170 |              0.00 |   100170.00 |
+| 2026      | Emergency         | Ε08Μ     | All Providers                         |        100170 |              0.00 |   100170.00 |
+| 2026      | Emergency         | Η08Χ     | AIG Hellas                            |         12730 |          25460.00 |    38190.00 |
+| 2026      | Emergency         | Η08Χ     | All Providers                         |         12730 |          25460.00 |    38190.00 |
+| 2026      | Emergency         | Κ40Χ     | Personal Insurance                    |          7940 |           7940.00 |    15880.00 |
+| 2026      | Emergency         | Κ40Χ     | All Providers                         |          7940 |           7940.00 |    15880.00 |
+| 2026      | Emergency         | Μ25Χ     | Ευρωπαϊκή Πίστη                       |         12600 |              0.00 |    12600.00 |
+| 2026      | Emergency         | Μ25Χ     | All Providers                         |         12600 |              0.00 |    12600.00 |
+| 2026      | Emergency         | Σ04Μ     | Ευρωπαϊκή Πίστη                       |         16940 |              0.00 |    16940.00 |
+| 2026      | Emergency         | Σ04Μ     | All Providers                         |         16940 |              0.00 |    16940.00 |
+| 2026      | Emergency         | Σ20Χ     | NN Hellas                             |          9880 |           6586.67 |    16466.67 |
+| 2026      | Emergency         | Σ20Χ     | All Providers                         |          9880 |           6586.67 |    16466.67 |
+| 2026      | Emergency         | Χ43Α     | Interamerican                         |         25680 |              0.00 |    25680.00 |
+| 2026      | Emergency         | Χ43Α     | All Providers                         |         25680 |              0.00 |    25680.00 |
+| 2026      | Emergency         | All DRGs | All Providers                         |        290060 |          75442.67 |   365502.67 |
+| 2026      | Gastroenterology  | Α25Μ     | Groupama Ασφαλιστική                  |         17660 |              0.00 |    17660.00 |
+| 2026      | Gastroenterology  | Α25Μ     | All Providers                         |         17660 |              0.00 |    17660.00 |
+| 2026      | Gastroenterology  | Α30Χ     | Ευρωπαϊκή Πίστη                       |          6070 |          12140.00 |    18210.00 |
+| 2026      | Gastroenterology  | Α30Χ     | All Providers                         |          6070 |          12140.00 |    18210.00 |
+| 2026      | Gastroenterology  | Β02Χ     | Ergo Ασφαλιστική                      |         10070 |          13426.67 |    23496.67 |
+| 2026      | Gastroenterology  | Β02Χ     | All Providers                         |         10070 |          13426.67 |    23496.67 |
+| 2026      | Gastroenterology  | Δ12Μ     | Hellas Direct                         |         48710 |              0.00 |    48710.00 |
+| 2026      | Gastroenterology  | Δ12Μ     | All Providers                         |         48710 |              0.00 |    48710.00 |
+| 2026      | Gastroenterology  | Κ17Μ     | Εθνική Ασφαλιστική                    |         28920 |              0.00 |    28920.00 |
+| 2026      | Gastroenterology  | Κ17Μ     | All Providers                         |         28920 |              0.00 |    28920.00 |
+| 2026      | Gastroenterology  | Κ20Α     | Eurolife FFH                          |          7600 |          30400.00 |    38000.00 |
+| 2026      | Gastroenterology  | Κ20Α     | All Providers                         |          7600 |          30400.00 |    38000.00 |
+| 2026      | Gastroenterology  | Κ41Μ     | Εθνική Ασφαλιστική                    |         48010 |              0.00 |    48010.00 |
+| 2026      | Gastroenterology  | Κ41Μ     | All Providers                         |         48010 |              0.00 |    48010.00 |
+| 2026      | Gastroenterology  | Μ16Α     | Euroins                               |         15880 |          23820.00 |    39700.00 |
+| 2026      | Gastroenterology  | Μ16Α     | All Providers                         |         15880 |          23820.00 |    39700.00 |
+| 2026      | Gastroenterology  | Ο05Α     | Ατλαντική Ένωση                       |          8960 |          35840.00 |    44800.00 |
+| 2026      | Gastroenterology  | Ο05Α     | All Providers                         |          8960 |          35840.00 |    44800.00 |
+| 2026      | Gastroenterology  | Σ21Α     | Ατλαντική Ένωση                       |          2940 |           5880.00 |     8820.00 |
+| 2026      | Gastroenterology  | Σ21Α     | All Providers                         |          2940 |           5880.00 |     8820.00 |
+| 2026      | Gastroenterology  | Ω03Α     | NN Hellas                             |         12810 |          19215.00 |    32025.00 |
+| 2026      | Gastroenterology  | Ω03Α     | All Providers                         |         12810 |          19215.00 |    32025.00 |
+| 2026      | Gastroenterology  | All DRGs | All Providers                         |        207630 |         140721.67 |   348351.67 |
+| 2026      | Gynecology        | Α02Μα    | Groupama Ασφαλιστική                  |         39220 |           2451.25 |    41671.25 |
+| 2026      | Gynecology        | Α02Μα    | All Providers                         |         39220 |           2451.25 |    41671.25 |
+| 2026      | Gynecology        | Β21Α     | Interamerican                         |          4590 |           2295.00 |     6885.00 |
+| 2026      | Gynecology        | Β21Α     | All Providers                         |          4590 |           2295.00 |     6885.00 |
+| 2026      | Gynecology        | Δ01Χ     | Anytime                               |         64520 |              0.00 |    64520.00 |
+| 2026      | Gynecology        | Δ01Χ     | All Providers                         |         64520 |              0.00 |    64520.00 |
+| 2026      | Gynecology        | Δ12Χβ    | NN Hellas                             |         17740 |              0.00 |    17740.00 |
+| 2026      | Gynecology        | Δ12Χβ    | All Providers                         |         17740 |              0.00 |    17740.00 |
+| 2026      | Gynecology        | Ε11Χ     | Eurolife FFH                          |         53020 |          35346.67 |    88366.67 |
+| 2026      | Gynecology        | Ε11Χ     | All Providers                         |         53020 |          35346.67 |    88366.67 |
+| 2026      | Gynecology        | Η01Μ     | Ευρωπαϊκή Πίστη                       |         79160 |              0.00 |    79160.00 |
+| 2026      | Gynecology        | Η01Μ     | All Providers                         |         79160 |              0.00 |    79160.00 |
+| 2026      | Gynecology        | Η42Χ     | Prime Insurance                       |          7080 |           4720.00 |    11800.00 |
+| 2026      | Gynecology        | Η42Χ     | All Providers                         |          7080 |           4720.00 |    11800.00 |
+| 2026      | Gynecology        | Κ31Χ     | Groupama Ασφαλιστική                  |         11830 |           8872.50 |    20702.50 |
+| 2026      | Gynecology        | Κ31Χ     | All Providers                         |         11830 |           8872.50 |    20702.50 |
+| 2026      | Gynecology        | Κ41Μ     | Groupama Ασφαλιστική                  |         48010 |              0.00 |    48010.00 |
+| 2026      | Gynecology        | Κ41Μ     | All Providers                         |         48010 |              0.00 |    48010.00 |
+| 2026      | Gynecology        | Μ12Μα    | Personal Insurance                    |         54780 |              0.00 |    54780.00 |
+| 2026      | Gynecology        | Μ12Μα    | All Providers                         |         54780 |              0.00 |    54780.00 |
+| 2026      | Gynecology        | Μ27Μ     | Μινέττα Ασφαλιστική                   |         21790 |           9684.44 |    31474.44 |
+| 2026      | Gynecology        | Μ27Μ     | All Providers                         |         21790 |           9684.44 |    31474.44 |
+| 2026      | Gynecology        | Ν23Α     | Interamerican                         |         21090 |              0.00 |    21090.00 |
+| 2026      | Gynecology        | Ν23Α     | All Providers                         |         21090 |              0.00 |    21090.00 |
+| 2026      | Gynecology        | Ν37Α     | Groupama Ασφαλιστική                  |          3350 |              0.00 |     3350.00 |
+| 2026      | Gynecology        | Ν37Α     | All Providers                         |          3350 |              0.00 |     3350.00 |
+| 2026      | Gynecology        | Ο17Α     | Εθνική Ασφαλιστική                    |         24230 |              0.00 |    24230.00 |
+| 2026      | Gynecology        | Ο17Α     | All Providers                         |         24230 |              0.00 |    24230.00 |
+| 2026      | Gynecology        | Π40Χ     | Personal Insurance                    |          6770 |              0.00 |     6770.00 |
+| 2026      | Gynecology        | Π40Χ     | All Providers                         |          6770 |              0.00 |     6770.00 |
+| 2026      | Gynecology        | Ρ20Χ     | Groupama Ασφαλιστική                  |         12610 |              0.00 |    12610.00 |
+| 2026      | Gynecology        | Ρ20Χ     | All Providers                         |         12610 |              0.00 |    12610.00 |
+| 2026      | Gynecology        | Τ27Μβ    | Μινέττα Ασφαλιστική                   |         12940 |           1848.57 |    14788.57 |
+| 2026      | Gynecology        | Τ27Μβ    | All Providers                         |         12940 |           1848.57 |    14788.57 |
+| 2026      | Gynecology        | Φ25Μ     | Allianz Hellas                        |         12560 |           3140.00 |    15700.00 |
+| 2026      | Gynecology        | Φ25Μ     | All Providers                         |         12560 |           3140.00 |    15700.00 |
+| 2026      | Gynecology        | Φ26Χ     | Interamerican                         |          8280 |              0.00 |     8280.00 |
+| 2026      | Gynecology        | Φ26Χ     | All Providers                         |          8280 |              0.00 |     8280.00 |
+| 2026      | Gynecology        | Φ64Μ     | AIG Hellas                            |         11590 |           4636.00 |    16226.00 |
+| 2026      | Gynecology        | Φ64Μ     | All Providers                         |         11590 |           4636.00 |    16226.00 |
+| 2026      | Gynecology        | All DRGs | All Providers                         |        515160 |          72994.43 |   588154.43 |
+| 2026      | ICU               | Α20Μ     | Ατλαντική Ένωση                       |         36960 |              0.00 |    36960.00 |
+| 2026      | ICU               | Α20Μ     | All Providers                         |         36960 |              0.00 |    36960.00 |
+| 2026      | ICU               | Α24Χ     | Εθνική Ασφαλιστική                    |          9490 |              0.00 |     9490.00 |
+| 2026      | ICU               | Α24Χ     | All Providers                         |          9490 |              0.00 |     9490.00 |
+| 2026      | ICU               | Δ29Μ     | NN Hellas                             |         21710 |              0.00 |    21710.00 |
+| 2026      | ICU               | Δ29Μ     | All Providers                         |         21710 |              0.00 |    21710.00 |
+| 2026      | ICU               | Ε08Χ     | Hellas Direct                         |         36830 |              0.00 |    36830.00 |
+| 2026      | ICU               | Ε08Χ     | All Providers                         |         36830 |              0.00 |    36830.00 |
+| 2026      | ICU               | Κ22Α     | Ergo Ασφαλιστική                      |         77530 |              0.00 |    77530.00 |
+| 2026      | ICU               | Κ22Α     | All Providers                         |         77530 |              0.00 |    77530.00 |
+| 2026      | ICU               | Κ41Χ     | Ευρωπαϊκή Πίστη                       |         23970 |           1997.50 |    25967.50 |
+| 2026      | ICU               | Κ41Χ     | All Providers                         |         23970 |           1997.50 |    25967.50 |
+| 2026      | ICU               | Κ42Μ     | Prime Insurance                       |         20540 |              0.00 |    20540.00 |
+| 2026      | ICU               | Κ42Μ     | All Providers                         |         20540 |              0.00 |    20540.00 |
+| 2026      | ICU               | Μ07Α     | Interamerican                         |         52350 |              0.00 |    52350.00 |
+| 2026      | ICU               | Μ07Α     | All Providers                         |         52350 |              0.00 |    52350.00 |
+| 2026      | ICU               | Μ71Χ     | Groupama Ασφαλιστική                  |          4050 |           6075.00 |    10125.00 |
+| 2026      | ICU               | Μ71Χ     | All Providers                         |          4050 |           6075.00 |    10125.00 |
+| 2026      | ICU               | Ν06Μ     | Groupama Ασφαλιστική                  |         32970 |              0.00 |    32970.00 |
+| 2026      | ICU               | Ν06Μ     | All Providers                         |         32970 |              0.00 |    32970.00 |
+| 2026      | ICU               | Σ21Α     | Interamerican                         |          2940 |           5880.00 |     8820.00 |
+| 2026      | ICU               | Σ21Α     | All Providers                         |          2940 |           5880.00 |     8820.00 |
+| 2026      | ICU               | Τ05Α     | Euroins                               |        103570 |              0.00 |   103570.00 |
+| 2026      | ICU               | Τ05Α     | All Providers                         |        103570 |              0.00 |   103570.00 |
+| 2026      | ICU               | Χ47Α     | Anytime                               |         12140 |              0.00 |    12140.00 |
+| 2026      | ICU               | Χ47Α     | All Providers                         |         12140 |              0.00 |    12140.00 |
+| 2026      | ICU               | Ω04Μ     | NN Hellas                             |         31250 |          15625.00 |    46875.00 |
+| 2026      | ICU               | Ω04Μ     | All Providers                         |         31250 |          15625.00 |    46875.00 |
+| 2026      | ICU               | All DRGs | All Providers                         |        466300 |          29577.50 |   495877.50 |
+| 2026      | Internal Medicine | W11Α     | Intersalonika                         |          9910 |          19820.00 |    29730.00 |
+| 2026      | Internal Medicine | W11Α     | All Providers                         |          9910 |          19820.00 |    29730.00 |
+| 2026      | Internal Medicine | Β05Α     | Generali Hellas                       |          4580 |          13740.00 |    18320.00 |
+| 2026      | Internal Medicine | Β05Α     | All Providers                         |          4580 |          13740.00 |    18320.00 |
+| 2026      | Internal Medicine | Θ22Μ     | Eurolife FFH                          |         13930 |           7960.00 |    21890.00 |
+| 2026      | Internal Medicine | Θ22Μ     | All Providers                         |         13930 |           7960.00 |    21890.00 |
+| 2026      | Internal Medicine | Κ17Χ     | Groupama Ασφαλιστική                  |         26170 |          52340.00 |    78510.00 |
+| 2026      | Internal Medicine | Κ17Χ     | All Providers                         |         26170 |          52340.00 |    78510.00 |
+| 2026      | Internal Medicine | Κ38Μ     | AIG Hellas                            |         12840 |              0.00 |    12840.00 |
+| 2026      | Internal Medicine | Κ38Μ     | All Providers                         |         12840 |              0.00 |    12840.00 |
+| 2026      | Internal Medicine | Μ06Α     | Generali Hellas                       |        199800 |              0.00 |   199800.00 |
+| 2026      | Internal Medicine | Μ06Α     | All Providers                         |        199800 |              0.00 |   199800.00 |
+| 2026      | Internal Medicine | Μ67Μ     | Euroins                               |         24280 |              0.00 |    24280.00 |
+| 2026      | Internal Medicine | Μ67Μ     | All Providers                         |         24280 |              0.00 |    24280.00 |
+| 2026      | Internal Medicine | Ν27Μα    | Anytime                               |         25290 |              0.00 |    25290.00 |
+| 2026      | Internal Medicine | Ν27Μα    | All Providers                         |         25290 |              0.00 |    25290.00 |
+| 2026      | Internal Medicine | Π27Α     | Ατλαντική Ένωση                       |          2650 |           5300.00 |     7950.00 |
+| 2026      | Internal Medicine | Π27Α     | All Providers                         |          2650 |           5300.00 |     7950.00 |
+| 2026      | Internal Medicine | Π47Μ     | Ergo Ασφαλιστική                      |         11210 |              0.00 |    11210.00 |
+| 2026      | Internal Medicine | Π47Μ     | All Providers                         |         11210 |              0.00 |    11210.00 |
+| 2026      | Internal Medicine | Χ41Α     | Euroins                               |         30660 |              0.00 |    30660.00 |
+| 2026      | Internal Medicine | Χ41Α     | All Providers                         |         30660 |              0.00 |    30660.00 |
+| 2026      | Internal Medicine | All DRGs | All Providers                         |        361320 |          99160.00 |   460480.00 |
+| 2026      | Microbiology      | S01Χ     | Ergo Ασφαλιστική                      |         13340 |          53360.00 |    66700.00 |
+| 2026      | Microbiology      | S01Χ     | All Providers                         |         13340 |          53360.00 |    66700.00 |
+| 2026      | Microbiology      | Α24Χ     | Ορίζων Ασφαλιστική                    |          9490 |           7117.50 |    16607.50 |
+| 2026      | Microbiology      | Α24Χ     | All Providers                         |          9490 |           7117.50 |    16607.50 |
+| 2026      | Microbiology      | Α26Χ     | Intersalonika                         |          6070 |           8093.33 |    14163.33 |
+| 2026      | Microbiology      | Α26Χ     | All Providers                         |          6070 |           8093.33 |    14163.33 |
+| 2026      | Microbiology      | Α27Χ     | Allianz Hellas                        |          3500 |           3500.00 |     7000.00 |
+| 2026      | Microbiology      | Α27Χ     | All Providers                         |          3500 |           3500.00 |     7000.00 |
+| 2026      | Microbiology      | Α34Μβ    | Eurolife FFH                          |         13930 |              0.00 |    13930.00 |
+| 2026      | Microbiology      | Α34Μβ    | All Providers                         |         13930 |              0.00 |    13930.00 |
+| 2026      | Microbiology      | Γ11Α     | Anytime                               |          7290 |           9720.00 |    17010.00 |
+| 2026      | Microbiology      | Γ11Α     | All Providers                         |          7290 |           9720.00 |    17010.00 |
+| 2026      | Microbiology      | Η23Μ     | Μινέττα Ασφαλιστική                   |         25520 |              0.00 |    25520.00 |
+| 2026      | Microbiology      | Η23Μ     | All Providers                         |         25520 |              0.00 |    25520.00 |
+| 2026      | Microbiology      | Η42Μ     | Groupama Ασφαλιστική                  |         19380 |              0.00 |    19380.00 |
+| 2026      | Microbiology      | Η42Μ     | All Providers                         |         19380 |              0.00 |    19380.00 |
+| 2026      | Microbiology      | Θ20Χ     | Prime Insurance                       |          7310 |           4873.33 |    12183.33 |
+| 2026      | Microbiology      | Θ20Χ     | All Providers                         |          7310 |           4873.33 |    12183.33 |
+| 2026      | Microbiology      | Κ12Μ     | Generali Hellas                       |         54650 |           4968.18 |    59618.18 |
+| 2026      | Microbiology      | Κ12Μ     | All Providers                         |         54650 |           4968.18 |    59618.18 |
+| 2026      | Microbiology      | Μ04Μ     | Intersalonika                         |         70420 |              0.00 |    70420.00 |
+| 2026      | Microbiology      | Μ04Μ     | All Providers                         |         70420 |              0.00 |    70420.00 |
+| 2026      | Microbiology      | Μ19Μ     | AIG Hellas                            |         26480 |              0.00 |    26480.00 |
+| 2026      | Microbiology      | Μ19Μ     | All Providers                         |         26480 |              0.00 |    26480.00 |
+| 2026      | Microbiology      | Ν20Χ     | Ευρωπαϊκή Πίστη                       |         25760 |           7728.00 |    33488.00 |
+| 2026      | Microbiology      | Ν20Χ     | All Providers                         |         25760 |           7728.00 |    33488.00 |
+| 2026      | Microbiology      | Π01Μ     | Ergo Ασφαλιστική                      |         64890 |              0.00 |    64890.00 |
+| 2026      | Microbiology      | Π01Μ     | All Providers                         |         64890 |              0.00 |    64890.00 |
+| 2026      | Microbiology      | Π04Μβ    | Euroins                               |         27100 |           9033.33 |    36133.33 |
+| 2026      | Microbiology      | Π04Μβ    | All Providers                         |         27100 |           9033.33 |    36133.33 |
+| 2026      | Microbiology      | Π05Χ     | Allianz Hellas                        |         13790 |              0.00 |    13790.00 |
+| 2026      | Microbiology      | Π05Χ     | All Providers                         |         13790 |              0.00 |    13790.00 |
+| 2026      | Microbiology      | Τ25Μα    | Ατλαντική Ένωση                       |         58720 |           7340.00 |    66060.00 |
+| 2026      | Microbiology      | Τ25Μα    | All Providers                         |         58720 |           7340.00 |    66060.00 |
+| 2026      | Microbiology      | Υ20Μβ    | Personal Insurance                    |         13000 |           6500.00 |    19500.00 |
+| 2026      | Microbiology      | Υ20Μβ    | All Providers                         |         13000 |           6500.00 |    19500.00 |
+| 2026      | Microbiology      | All DRGs | All Providers                         |        460640 |         122233.67 |   582873.67 |
+| 2026      | Neurology         | Α35Μα    | AIG Hellas                            |         15560 |           3890.00 |    19450.00 |
+| 2026      | Neurology         | Α35Μα    | All Providers                         |         15560 |           3890.00 |    19450.00 |
+| 2026      | Neurology         | Δ08Μ     | Εθνική Ασφαλιστική                    |         22940 |              0.00 |    22940.00 |
+| 2026      | Neurology         | Δ08Μ     | All Providers                         |         22940 |              0.00 |    22940.00 |
+| 2026      | Neurology         | Ζ03Α     | Interamerican                         |         23120 |              0.00 |    23120.00 |
+| 2026      | Neurology         | Ζ03Α     | All Providers                         |         23120 |              0.00 |    23120.00 |
+| 2026      | Neurology         | Η43Χ     | AIG Hellas                            |          5210 |           5210.00 |    10420.00 |
+| 2026      | Neurology         | Η43Χ     | All Providers                         |          5210 |           5210.00 |    10420.00 |
+| 2026      | Neurology         | Θ20Χ     | Anytime                               |          7310 |              0.00 |     7310.00 |
+| 2026      | Neurology         | Θ20Χ     | All Providers                         |          7310 |              0.00 |     7310.00 |
+| 2026      | Neurology         | Κ09Μα    | Groupama Ασφαλιστική                  |         64130 |              0.00 |    64130.00 |
+| 2026      | Neurology         | Κ09Μα    | All Providers                         |         64130 |              0.00 |    64130.00 |
+| 2026      | Neurology         | Κ10Μ     | Μινέττα Ασφαλιστική                   |         41660 |              0.00 |    41660.00 |
+| 2026      | Neurology         | Κ10Μ     | All Providers                         |         41660 |              0.00 |    41660.00 |
+| 2026      | Neurology         | Κ15Χ     | Eurolife FFH                          |         20130 |              0.00 |    20130.00 |
+| 2026      | Neurology         | Κ15Χ     | All Providers                         |         20130 |              0.00 |    20130.00 |
+| 2026      | Neurology         | Κ41Μ     | Prime Insurance                       |         48010 |              0.00 |    48010.00 |
+| 2026      | Neurology         | Κ41Μ     | All Providers                         |         48010 |              0.00 |    48010.00 |
+| 2026      | Neurology         | Ν23Α     | Hellas Direct                         |         21090 |           3244.62 |    24334.62 |
+| 2026      | Neurology         | Ν23Α     | All Providers                         |         21090 |           3244.62 |    24334.62 |
+| 2026      | Neurology         | Ν31Μ     | Prime Insurance                       |         15100 |              0.00 |    15100.00 |
+| 2026      | Neurology         | Ν31Μ     | All Providers                         |         15100 |              0.00 |    15100.00 |
+| 2026      | Neurology         | Ο20Χ     | Eurolife FFH                          |         10350 |              0.00 |    10350.00 |
+| 2026      | Neurology         | Ο20Χ     | All Providers                         |         10350 |              0.00 |    10350.00 |
+| 2026      | Neurology         | Σ20Μ     | Generali Hellas                       |         74350 |              0.00 |    74350.00 |
+| 2026      | Neurology         | Σ20Μ     | All Providers                         |         74350 |              0.00 |    74350.00 |
+| 2026      | Neurology         | Χ43Α     | AIG Hellas                            |         25680 |           7337.14 |    33017.14 |
+| 2026      | Neurology         | Χ43Α     | All Providers                         |         25680 |           7337.14 |    33017.14 |
+| 2026      | Neurology         | Ω37Α     | Prime Insurance                       |          2540 |              0.00 |     2540.00 |
+| 2026      | Neurology         | Ω37Α     | All Providers                         |          2540 |              0.00 |     2540.00 |
+| 2026      | Neurology         | All DRGs | All Providers                         |        397180 |          19681.76 |   416861.76 |
+| 2026      | Ophthalmology     | S25Α     | Anytime                               |         10820 |           2705.00 |    13525.00 |
+| 2026      | Ophthalmology     | S25Α     | All Providers                         |         10820 |           2705.00 |    13525.00 |
+| 2026      | Ophthalmology     | Α02Χ     | Prime Insurance                       |          6830 |          13660.00 |    20490.00 |
+| 2026      | Ophthalmology     | Α02Χ     | All Providers                         |          6830 |          13660.00 |    20490.00 |
+| 2026      | Ophthalmology     | Β03Α     | AIG Hellas                            |          7710 |          15420.00 |    23130.00 |
+| 2026      | Ophthalmology     | Β03Α     | All Providers                         |          7710 |          15420.00 |    23130.00 |
+| 2026      | Ophthalmology     | Κ07Χ     | Eurolife FFH                          |         53540 |              0.00 |    53540.00 |
+| 2026      | Ophthalmology     | Κ07Χ     | All Providers                         |         53540 |              0.00 |    53540.00 |
+| 2026      | Ophthalmology     | Κ32Χ     | Ατλαντική Ένωση                       |         10890 |              0.00 |    10890.00 |
+| 2026      | Ophthalmology     | Κ32Χ     | All Providers                         |         10890 |              0.00 |    10890.00 |
+| 2026      | Ophthalmology     | Λ02Χ     | Euroins                               |         11750 |              0.00 |    11750.00 |
+| 2026      | Ophthalmology     | Λ02Χ     | All Providers                         |         11750 |              0.00 |    11750.00 |
+| 2026      | Ophthalmology     | Μ71Μ     | Ορίζων Ασφαλιστική                    |         13230 |           5670.00 |    18900.00 |
+| 2026      | Ophthalmology     | Μ71Μ     | All Providers                         |         13230 |           5670.00 |    18900.00 |
+| 2026      | Ophthalmology     | Ν06Μ     | Hellas Direct                         |         32970 |              0.00 |    32970.00 |
+| 2026      | Ophthalmology     | Ν06Μ     | All Providers                         |         32970 |              0.00 |    32970.00 |
+| 2026      | Ophthalmology     | Ν25Α     | Generali Hellas                       |          4820 |              0.00 |     4820.00 |
+| 2026      | Ophthalmology     | Ν25Α     | All Providers                         |          4820 |              0.00 |     4820.00 |
+| 2026      | Ophthalmology     | Π03Μ     | Eurolife FFH                          |         69080 |              0.00 |    69080.00 |
+| 2026      | Ophthalmology     | Π03Μ     | All Providers                         |         69080 |              0.00 |    69080.00 |
+| 2026      | Ophthalmology     | Σ20Χ     | AIG Hellas                            |          9880 |              0.00 |     9880.00 |
+| 2026      | Ophthalmology     | Σ20Χ     | All Providers                         |          9880 |              0.00 |     9880.00 |
+| 2026      | Ophthalmology     | Τ22Α     | Generali Hellas                       |        307250 |              0.00 |   307250.00 |
+| 2026      | Ophthalmology     | Τ22Α     | All Providers                         |        307250 |              0.00 |   307250.00 |
+| 2026      | Ophthalmology     | Τ25Μβ    | Generali Hellas                       |         41450 |              0.00 |    41450.00 |
+| 2026      | Ophthalmology     | Τ25Μβ    | All Providers                         |         41450 |              0.00 |    41450.00 |
+| 2026      | Ophthalmology     | Ω02Μα    | Allianz Hellas                        |         54200 |              0.00 |    54200.00 |
+| 2026      | Ophthalmology     | Ω02Μα    | All Providers                         |         54200 |              0.00 |    54200.00 |
+| 2026      | Ophthalmology     | All DRGs | All Providers                         |        634420 |          37455.00 |   671875.00 |
+| 2026      | Orthopedics       | Α33Μβ    | Generali Hellas                       |         10430 |              0.00 |    10430.00 |
+| 2026      | Orthopedics       | Α33Μβ    | All Providers                         |         10430 |              0.00 |    10430.00 |
+| 2026      | Orthopedics       | Β03Α     | Groupama Ασφαλιστική                  |          7710 |           7710.00 |    15420.00 |
+| 2026      | Orthopedics       | Β03Α     | All Providers                         |          7710 |           7710.00 |    15420.00 |
+| 2026      | Orthopedics       | Β20Μ     | NN Hellas                             |         13230 |           1890.00 |    15120.00 |
+| 2026      | Orthopedics       | Β20Μ     | All Providers                         |         13230 |           1890.00 |    15120.00 |
+| 2026      | Orthopedics       | Η43Μ     | AIG Hellas                            |         18130 |              0.00 |    18130.00 |
+| 2026      | Orthopedics       | Η43Μ     | All Providers                         |         18130 |              0.00 |    18130.00 |
+| 2026      | Orthopedics       | Κ06Μ     | Hellas Direct                         |         71820 |              0.00 |    71820.00 |
+| 2026      | Orthopedics       | Κ06Μ     | All Providers                         |         71820 |              0.00 |    71820.00 |
+| 2026      | Orthopedics       | Μ01Μ     | Ατλαντική Ένωση                       |        140200 |          11216.00 |   151416.00 |
+| 2026      | Orthopedics       | Μ01Μ     | All Providers                         |        140200 |          11216.00 |   151416.00 |
+| 2026      | Orthopedics       | Μ19Μ     | Groupama Ασφαλιστική                  |         26480 |              0.00 |    26480.00 |
+| 2026      | Orthopedics       | Μ19Μ     | All Providers                         |         26480 |              0.00 |    26480.00 |
+| 2026      | Orthopedics       | Μ69Μ     | Groupama Ασφαλιστική                  |         15330 |              0.00 |    15330.00 |
+| 2026      | Orthopedics       | Μ69Μ     | All Providers                         |         15330 |              0.00 |    15330.00 |
+| 2026      | Orthopedics       | All DRGs | All Providers                         |        303330 |          20816.00 |   324146.00 |
+| 2026      | Pediatrics        | S21Μ     | Interamerican                         |          8870 |              0.00 |     8870.00 |
+| 2026      | Pediatrics        | S21Μ     | All Providers                         |          8870 |              0.00 |     8870.00 |
+| 2026      | Pediatrics        | Ε09Α     | Allianz Hellas                        |        153460 |              0.00 |   153460.00 |
+| 2026      | Pediatrics        | Ε09Α     | All Providers                         |        153460 |              0.00 |   153460.00 |
+| 2026      | Pediatrics        | Θ01Χ     | Prime Insurance                       |         28010 |           9336.67 |    37346.67 |
+| 2026      | Pediatrics        | Θ01Χ     | All Providers                         |         28010 |           9336.67 |    37346.67 |
+| 2026      | Pediatrics        | Κ45Μβ    | Euroins                               |         10190 |           5095.00 |    15285.00 |
+| 2026      | Pediatrics        | Κ45Μβ    | Groupama Ασφαλιστική                  |         10190 |              0.00 |    10190.00 |
+| 2026      | Pediatrics        | Κ45Μβ    | All Providers                         |         20380 |           5095.00 |    25475.00 |
+| 2026      | Pediatrics        | Μ07Α     | Ατλαντική Ένωση                       |         52350 |              0.00 |    52350.00 |
+| 2026      | Pediatrics        | Μ07Α     | All Providers                         |         52350 |              0.00 |    52350.00 |
+| 2026      | Pediatrics        | Μ19Μ     | Euroins                               |         26480 |              0.00 |    26480.00 |
+| 2026      | Pediatrics        | Μ19Μ     | All Providers                         |         26480 |              0.00 |    26480.00 |
+| 2026      | Pediatrics        | Ξ01Α     | Interamerican                         |         34760 |          19862.86 |    54622.86 |
+| 2026      | Pediatrics        | Ξ01Α     | All Providers                         |         34760 |          19862.86 |    54622.86 |
+| 2026      | Pediatrics        | Τ06Μ     | Ergo Ασφαλιστική                      |        151280 |              0.00 |   151280.00 |
+| 2026      | Pediatrics        | Τ06Μ     | All Providers                         |        151280 |              0.00 |   151280.00 |
+| 2026      | Pediatrics        | Τ21Α     | Ergo Ασφαλιστική                      |        415790 |              0.00 |   415790.00 |
+| 2026      | Pediatrics        | Τ21Α     | All Providers                         |        415790 |              0.00 |   415790.00 |
+| 2026      | Pediatrics        | Φ64Μ     | Euroins                               |         11590 |              0.00 |    11590.00 |
+| 2026      | Pediatrics        | Φ64Μ     | All Providers                         |         11590 |              0.00 |    11590.00 |
+| 2026      | Pediatrics        | All DRGs | All Providers                         |        902970 |          34294.53 |   937264.53 |
+| 2026      | Pulmonology       | G01Μα    | AIG Hellas                            |         57090 |              0.00 |    57090.00 |
+| 2026      | Pulmonology       | G01Μα    | All Providers                         |         57090 |              0.00 |    57090.00 |
+| 2026      | Pulmonology       | Α21Χ     | Μινέττα Ασφαλιστική                   |         10350 |           1725.00 |    12075.00 |
+| 2026      | Pulmonology       | Α21Χ     | All Providers                         |         10350 |           1725.00 |    12075.00 |
+| 2026      | Pulmonology       | Δ11Α     | Anytime                               |          4040 |          16160.00 |    20200.00 |
+| 2026      | Pulmonology       | Δ11Α     | All Providers                         |          4040 |          16160.00 |    20200.00 |
+| 2026      | Pulmonology       | Θ22Χ     | Euroins                               |          4820 |           7230.00 |    12050.00 |
+| 2026      | Pulmonology       | Θ22Χ     | All Providers                         |          4820 |           7230.00 |    12050.00 |
+| 2026      | Pulmonology       | Μ12Χ     | Generali Hellas                       |         16650 |           2775.00 |    19425.00 |
+| 2026      | Pulmonology       | Μ12Χ     | All Providers                         |         16650 |           2775.00 |    19425.00 |
+| 2026      | Pulmonology       | Ν33Α     | Groupama Ασφαλιστική                  |          7390 |           9853.33 |    17243.33 |
+| 2026      | Pulmonology       | Ν33Α     | All Providers                         |          7390 |           9853.33 |    17243.33 |
+| 2026      | Pulmonology       | Ο05Α     | Prime Insurance                       |          8960 |              0.00 |     8960.00 |
+| 2026      | Pulmonology       | Ο05Α     | All Providers                         |          8960 |              0.00 |     8960.00 |
+| 2026      | Pulmonology       | Ο13Α     | Ευρωπαϊκή Πίστη                       |          3360 |           3360.00 |     6720.00 |
+| 2026      | Pulmonology       | Ο13Α     | All Providers                         |          3360 |           3360.00 |     6720.00 |
+| 2026      | Pulmonology       | Ο20Χ     | Eurolife FFH                          |         10350 |              0.00 |    10350.00 |
+| 2026      | Pulmonology       | Ο20Χ     | All Providers                         |         10350 |              0.00 |    10350.00 |
+| 2026      | Pulmonology       | Υ22Μ     | Intersalonika                         |         14710 |              0.00 |    14710.00 |
+| 2026      | Pulmonology       | Υ22Μ     | All Providers                         |         14710 |              0.00 |    14710.00 |
+| 2026      | Pulmonology       | Υ24Α     | Groupama Ασφαλιστική                  |          3890 |           3890.00 |     7780.00 |
+| 2026      | Pulmonology       | Υ24Α     | All Providers                         |          3890 |           3890.00 |     7780.00 |
+| 2026      | Pulmonology       | Υ27Χ     | Anytime                               |          3580 |           3580.00 |     7160.00 |
+| 2026      | Pulmonology       | Υ27Χ     | All Providers                         |          3580 |           3580.00 |     7160.00 |
+| 2026      | Pulmonology       | Φ04Μ     | Hellas Direct                         |         87980 |              0.00 |    87980.00 |
+| 2026      | Pulmonology       | Φ04Μ     | All Providers                         |         87980 |              0.00 |    87980.00 |
+| 2026      | Pulmonology       | Φ11Χ     | Groupama Ασφαλιστική                  |         18830 |              0.00 |    18830.00 |
+| 2026      | Pulmonology       | Φ11Χ     | All Providers                         |         18830 |              0.00 |    18830.00 |
+| 2026      | Pulmonology       | Φ27Μ     | Intersalonika                         |         36310 |              0.00 |    36310.00 |
+| 2026      | Pulmonology       | Φ27Μ     | All Providers                         |         36310 |              0.00 |    36310.00 |
+| 2026      | Pulmonology       | Ω20Α     | Εθνική Ασφαλιστική                    |          5570 |          11140.00 |    16710.00 |
+| 2026      | Pulmonology       | Ω20Α     | All Providers                         |          5570 |          11140.00 |    16710.00 |
+| 2026      | Pulmonology       | All DRGs | All Providers                         |        293880 |          59713.33 |   353593.33 |
+| 2026      | Radiology         | S01Α     | Eurolife FFH                          |          5400 |          21600.00 |    27000.00 |
+| 2026      | Radiology         | S01Α     | All Providers                         |          5400 |          21600.00 |    27000.00 |
+| 2026      | Radiology         | Α26Χ     | AIG Hellas                            |          6070 |              0.00 |     6070.00 |
+| 2026      | Radiology         | Α26Χ     | All Providers                         |          6070 |              0.00 |     6070.00 |
+| 2026      | Radiology         | Η06Χ     | Anytime                               |         15560 |           3112.00 |    18672.00 |
+| 2026      | Radiology         | Η06Χ     | All Providers                         |         15560 |           3112.00 |    18672.00 |
+| 2026      | Radiology         | Η23Χ     | Groupama Ασφαλιστική                  |          7860 |              0.00 |     7860.00 |
+| 2026      | Radiology         | Η23Χ     | All Providers                         |          7860 |              0.00 |     7860.00 |
+| 2026      | Radiology         | Μ31Χ     | Ορίζων Ασφαλιστική                    |         85330 |          15514.55 |   100844.55 |
+| 2026      | Radiology         | Μ31Χ     | All Providers                         |         85330 |          15514.55 |   100844.55 |
+| 2026      | Radiology         | Μ32Μβ    | Groupama Ασφαλιστική                  |         99630 |              0.00 |    99630.00 |
+| 2026      | Radiology         | Μ32Μβ    | All Providers                         |         99630 |              0.00 |    99630.00 |
+| 2026      | Radiology         | Μ68Α     | Interamerican                         |          1510 |              0.00 |     1510.00 |
+| 2026      | Radiology         | Μ68Α     | Ευρωπαϊκή Πίστη                       |          1510 |           3020.00 |     4530.00 |
+| 2026      | Radiology         | Μ68Α     | All Providers                         |          3020 |           3020.00 |     6040.00 |
+| 2026      | Radiology         | Μ73Μ     | Generali Hellas                       |         22490 |           3748.33 |    26238.33 |
+| 2026      | Radiology         | Μ73Μ     | All Providers                         |         22490 |           3748.33 |    26238.33 |
+| 2026      | Radiology         | Μ74Α     | Ευρωπαϊκή Πίστη                       |          3500 |           1750.00 |     5250.00 |
+| 2026      | Radiology         | Μ74Α     | All Providers                         |          3500 |           1750.00 |     5250.00 |
+| 2026      | Radiology         | Ο03Α     | NN Hellas                             |          8370 |              0.00 |     8370.00 |
+| 2026      | Radiology         | Ο03Α     | All Providers                         |          8370 |              0.00 |     8370.00 |
+| 2026      | Radiology         | Ο10Α     | Prime Insurance                       |          6500 |          13000.00 |    19500.00 |
+| 2026      | Radiology         | Ο10Α     | All Providers                         |          6500 |          13000.00 |    19500.00 |
+| 2026      | Radiology         | Ο17Α     | Εθνική Ασφαλιστική                    |         24230 |           2423.00 |    26653.00 |
+| 2026      | Radiology         | Ο17Α     | All Providers                         |         24230 |           2423.00 |    26653.00 |
+| 2026      | Radiology         | Τ02Α     | Ergo Ασφαλιστική                      |        202790 |              0.00 |   202790.00 |
+| 2026      | Radiology         | Τ02Α     | All Providers                         |        202790 |              0.00 |   202790.00 |
+| 2026      | Radiology         | Τ26Χ     | Eurolife FFH                          |          7160 |           5728.00 |    12888.00 |
+| 2026      | Radiology         | Τ26Χ     | All Providers                         |          7160 |           5728.00 |    12888.00 |
+| 2026      | Radiology         | Υ07Μ     | AIG Hellas                            |         12180 |           9744.00 |    21924.00 |
+| 2026      | Radiology         | Υ07Μ     | All Providers                         |         12180 |           9744.00 |    21924.00 |
+| 2026      | Radiology         | Υ22Χ     | Euroins                               |          5450 |           5450.00 |    10900.00 |
+| 2026      | Radiology         | Υ22Χ     | All Providers                         |          5450 |           5450.00 |    10900.00 |
+| 2026      | Radiology         | All DRGs | All Providers                         |        515540 |          85089.88 |   600629.88 |
+| 2026      | Surgery           | Δ24Χ     | Anytime                               |          8020 |           2005.00 |    10025.00 |
+| 2026      | Surgery           | Δ24Χ     | All Providers                         |          8020 |           2005.00 |    10025.00 |
+| 2026      | Surgery           | Η01Μ     | Εθνική Ασφαλιστική                    |         79160 |           8332.63 |    87492.63 |
+| 2026      | Surgery           | Η01Μ     | All Providers                         |         79160 |           8332.63 |    87492.63 |
+| 2026      | Surgery           | Κ40Μ     | Ergo Ασφαλιστική                      |         20000 |              0.00 |    20000.00 |
+| 2026      | Surgery           | Κ40Μ     | All Providers                         |         20000 |              0.00 |    20000.00 |
+| 2026      | Surgery           | Μ11Α     | Ευρωπαϊκή Πίστη                       |         40450 |              0.00 |    40450.00 |
+| 2026      | Surgery           | Μ11Α     | All Providers                         |         40450 |              0.00 |    40450.00 |
+| 2026      | Surgery           | Μ12Μβ    | Μινέττα Ασφαλιστική                   |         29930 |              0.00 |    29930.00 |
+| 2026      | Surgery           | Μ12Μβ    | All Providers                         |         29930 |              0.00 |    29930.00 |
+| 2026      | Surgery           | Π43Α     | Μινέττα Ασφαλιστική                   |          3350 |           3350.00 |     6700.00 |
+| 2026      | Surgery           | Π43Α     | All Providers                         |          3350 |           3350.00 |     6700.00 |
+| 2026      | Surgery           | Ω02Μα    | Prime Insurance                       |         54200 |              0.00 |    54200.00 |
+| 2026      | Surgery           | Ω02Μα    | All Providers                         |         54200 |              0.00 |    54200.00 |
+| 2026      | Surgery           | All DRGs | All Providers                         |        235110 |          13687.63 |   248797.63 |
+| 2026      | Urology           | Α27Χ     | Groupama Ασφαλιστική                  |          3500 |           3500.00 |     7000.00 |
+| 2026      | Urology           | Α27Χ     | All Providers                         |          3500 |           3500.00 |     7000.00 |
+| 2026      | Urology           | Ζ03Α     | Ergo Ασφαλιστική                      |         23120 |              0.00 |    23120.00 |
+| 2026      | Urology           | Ζ03Α     | All Providers                         |         23120 |              0.00 |    23120.00 |
+| 2026      | Urology           | Η41Μ     | AIG Hellas                            |         19300 |              0.00 |    19300.00 |
+| 2026      | Urology           | Η41Μ     | All Providers                         |         19300 |              0.00 |    19300.00 |
+| 2026      | Urology           | Κ36Χ     | NN Hellas                             |          3740 |           3740.00 |     7480.00 |
+| 2026      | Urology           | Κ36Χ     | All Providers                         |          3740 |           3740.00 |     7480.00 |
+| 2026      | Urology           | Μ27Χ     | Ορίζων Ασφαλιστική                    |          9020 |          13530.00 |    22550.00 |
+| 2026      | Urology           | Μ27Χ     | All Providers                         |          9020 |          13530.00 |    22550.00 |
+| 2026      | Urology           | Ο61Χ     | Groupama Ασφαλιστική                  |          4820 |           2410.00 |     7230.00 |
+| 2026      | Urology           | Ο61Χ     | All Providers                         |          4820 |           2410.00 |     7230.00 |
+| 2026      | Urology           | Π03Χβ    | AIG Hellas                            |         18130 |              0.00 |    18130.00 |
+| 2026      | Urology           | Π03Χβ    | All Providers                         |         18130 |              0.00 |    18130.00 |
+| 2026      | Urology           | Π26Μ     | Ergo Ασφαλιστική                      |         33380 |              0.00 |    33380.00 |
+| 2026      | Urology           | Π26Μ     | All Providers                         |         33380 |              0.00 |    33380.00 |
+| 2026      | Urology           | Π27Μ     | Eurolife FFH                          |        100840 |              0.00 |   100840.00 |
+| 2026      | Urology           | Π27Μ     | All Providers                         |        100840 |              0.00 |   100840.00 |
+| 2026      | Urology           | Π44Μ     | Ορίζων Ασφαλιστική                    |         10970 |              0.00 |    10970.00 |
+| 2026      | Urology           | Π44Μ     | All Providers                         |         10970 |              0.00 |    10970.00 |
+| 2026      | Urology           | Τ20Χ     | AIG Hellas                            |          5120 |              0.00 |     5120.00 |
+| 2026      | Urology           | Τ20Χ     | All Providers                         |          5120 |              0.00 |     5120.00 |
+| 2026      | Urology           | Φ26Μ     | Allianz Hellas                        |         24600 |           2733.33 |    27333.33 |
+| 2026      | Urology           | Φ26Μ     | All Providers                         |         24600 |           2733.33 |    27333.33 |
+| 2026      | Urology           | Ω36Μ     | Intersalonika                         |          9570 |           4785.00 |    14355.00 |
+| 2026      | Urology           | Ω36Μ     | All Providers                         |          9570 |           4785.00 |    14355.00 |
+| 2026      | Urology           | All DRGs | All Providers                         |        266110 |          30698.33 |   296808.33 |
+| 2026      | All Departments   | All DRGs | All Providers                         |       6012150 |         871538.07 |  6883688.07 |
+| All Years | All Departments   | All DRGs | All Providers                         |      15524610 |        3507232.50 | 19031842.50 |
++-----------+-------------------+----------+---------------------------------------+---------------+-------------------+-------------+

@@ -1,0 +1,495 @@
++-------------+--------------+-------+-----------------+
+| start_AMKA  | rank         | level | AMKA_supervisor |
++-------------+--------------+-------+-----------------+
+| 11015001337 | trainee      |     0 |     11015026999 |
+| 11015001337 | consultant B |     1 |     11015080947 |
+| 11015001337 | consultant A |     2 |            NULL |
+| 11015002336 | consultant B |     0 |     11015087931 |
+| 11015002336 | director     |     1 |            NULL |
+| 11015003022 | director     |     0 |            NULL |
+| 11015003086 | consultant A |     0 |            NULL |
+| 11015004762 | consultant A |     0 |            NULL |
+| 11015004799 | consultant B |     0 |            NULL |
+| 11015005752 | consultant A |     0 |            NULL |
+| 11015007359 | consultant A |     0 |            NULL |
+| 11015008777 | consultant B |     0 |     11015034828 |
+| 11015008777 | consultant A |     1 |            NULL |
+| 11015009749 | trainee      |     0 |     11015097886 |
+| 11015009749 | consultant A |     1 |            NULL |
+| 11015012227 | trainee      |     0 |     11015077103 |
+| 11015012227 | consultant B |     1 |     11015093229 |
+| 11015012227 | director     |     2 |            NULL |
+| 11015014127 | consultant B |     0 |     11015049983 |
+| 11015014127 | consultant A |     1 |     11015093390 |
+| 11015014127 | director     |     2 |            NULL |
+| 11015015028 | consultant A |     0 |            NULL |
+| 11015018604 | trainee      |     0 |     11015035499 |
+| 11015018604 | consultant B |     1 |            NULL |
+| 11015021217 | director     |     0 |            NULL |
+| 11015021985 | trainee      |     0 |     11015096226 |
+| 11015021985 | consultant A |     1 |            NULL |
+| 11015022813 | consultant B |     0 |     11015064821 |
+| 11015022813 | director     |     1 |            NULL |
+| 11015026221 | consultant A |     0 |     11015028014 |
+| 11015026221 | director     |     1 |            NULL |
+| 11015026999 | consultant B |     0 |     11015080947 |
+| 11015026999 | consultant A |     1 |            NULL |
+| 11015028014 | director     |     0 |            NULL |
+| 11015030145 | trainee      |     0 |     11015059551 |
+| 11015030145 | consultant B |     1 |     11015055957 |
+| 11015030145 | consultant A |     2 |            NULL |
+| 11015032143 | consultant A |     0 |            NULL |
+| 11015034828 | consultant A |     0 |            NULL |
+| 11015035499 | consultant B |     0 |            NULL |
+| 11015037317 | director     |     0 |            NULL |
+| 11015038307 | trainee      |     0 |     11015051194 |
+| 11015038307 | consultant A |     1 |            NULL |
+| 11015038469 | trainee      |     0 |     11015092541 |
+| 11015038469 | consultant B |     1 |     11015093390 |
+| 11015038469 | director     |     2 |            NULL |
+| 11015038487 | consultant B |     0 |            NULL |
+| 11015038780 | director     |     0 |            NULL |
+| 11015041650 | consultant B |     0 |     11015071644 |
+| 11015041650 | consultant A |     1 |            NULL |
+| 11015041990 | trainee      |     0 |     11015084328 |
+| 11015041990 | consultant A |     1 |     11015054930 |
+| 11015041990 | director     |     2 |            NULL |
+| 11015044951 | consultant B |     0 |            NULL |
+| 11015047725 | director     |     0 |            NULL |
+| 11015049983 | consultant A |     0 |     11015093390 |
+| 11015049983 | director     |     1 |            NULL |
+| 11015050587 | trainee      |     0 |     11015007359 |
+| 11015050587 | consultant A |     1 |            NULL |
+| 11015050998 | consultant B |     0 |     11015034828 |
+| 11015050998 | consultant A |     1 |            NULL |
+| 11015051194 | consultant A |     0 |            NULL |
+| 11015051979 | director     |     0 |            NULL |
+| 11015052371 | trainee      |     0 |     11015021217 |
+| 11015052371 | director     |     1 |            NULL |
+| 11015052923 | consultant B |     0 |            NULL |
+| 11015054930 | director     |     0 |            NULL |
+| 11015055957 | consultant A |     0 |            NULL |
+| 11015058240 | consultant B |     0 |            NULL |
+| 11015059551 | consultant B |     0 |     11015055957 |
+| 11015059551 | consultant A |     1 |            NULL |
+| 11015061156 | consultant B |     0 |            NULL |
+| 11015064821 | director     |     0 |            NULL |
+| 11015065571 | trainee      |     0 |     11015099063 |
+| 11015065571 | consultant B |     1 |     11015087307 |
+| 11015065571 | director     |     2 |            NULL |
+| 11015066455 | trainee      |     0 |     11015055957 |
+| 11015066455 | consultant A |     1 |            NULL |
+| 11015066473 | consultant A |     0 |     11015073624 |
+| 11015066473 | director     |     1 |            NULL |
+| 11015069871 | trainee      |     0 |     11015066473 |
+| 11015069871 | consultant A |     1 |     11015073624 |
+| 11015069871 | director     |     2 |            NULL |
+| 11015071644 | consultant A |     0 |            NULL |
+| 11015071902 | consultant A |     0 |            NULL |
+| 11015072803 | consultant A |     0 |            NULL |
+| 11015073624 | director     |     0 |            NULL |
+| 11015074151 | consultant B |     0 |            NULL |
+| 11015074295 | consultant A |     0 |     11015093390 |
+| 11015074295 | director     |     1 |            NULL |
+| 11015074357 | consultant A |     0 |     11015090696 |
+| 11015074357 | director     |     1 |            NULL |
+| 11015075524 | trainee      |     0 |     11015072803 |
+| 11015075524 | consultant A |     1 |            NULL |
+| 11015076159 | trainee      |     0 |     11015074295 |
+| 11015076159 | consultant A |     1 |     11015093390 |
+| 11015076159 | director     |     2 |            NULL |
+| 11015076514 | trainee      |     0 |     11015061156 |
+| 11015076514 | consultant B |     1 |            NULL |
+| 11015076952 | trainee      |     0 |     11015054930 |
+| 11015076952 | director     |     1 |            NULL |
+| 11015077103 | consultant B |     0 |     11015093229 |
+| 11015077103 | director     |     1 |            NULL |
+| 11015078843 | trainee      |     0 |     11015028014 |
+| 11015078843 | director     |     1 |            NULL |
+| 11015079227 | trainee      |     0 |     11015061156 |
+| 11015079227 | consultant B |     1 |            NULL |
+| 11015080947 | consultant A |     0 |            NULL |
+| 11015084328 | consultant A |     0 |     11015054930 |
+| 11015084328 | director     |     1 |            NULL |
+| 11015087307 | director     |     0 |            NULL |
+| 11015087637 | consultant A |     0 |            NULL |
+| 11015087931 | director     |     0 |            NULL |
+| 11015090696 | director     |     0 |            NULL |
+| 11015091203 | consultant A |     0 |     11015064821 |
+| 11015091203 | director     |     1 |            NULL |
+| 11015092541 | consultant B |     0 |     11015093390 |
+| 11015092541 | director     |     1 |            NULL |
+| 11015093229 | director     |     0 |            NULL |
+| 11015093390 | director     |     0 |            NULL |
+| 11015094727 | trainee      |     0 |     11015050998 |
+| 11015094727 | consultant B |     1 |     11015034828 |
+| 11015094727 | consultant A |     2 |            NULL |
+| 11015096226 | consultant A |     0 |            NULL |
+| 11015096645 | consultant B |     0 |     11015021217 |
+| 11015096645 | director     |     1 |            NULL |
+| 11015097001 | consultant B |     0 |            NULL |
+| 11015097886 | consultant A |     0 |            NULL |
+| 11015099063 | consultant B |     0 |     11015087307 |
+| 11015099063 | director     |     1 |            NULL |
+| 21015001337 | trainee      |     0 |     11015026999 |
+| 21015001337 | consultant B |     1 |     11015080947 |
+| 21015001337 | consultant A |     2 |            NULL |
+| 21015002336 | consultant B |     0 |     11015087931 |
+| 21015002336 | director     |     1 |            NULL |
+| 21015003022 | director     |     0 |            NULL |
+| 21015003086 | consultant A |     0 |            NULL |
+| 21015004762 | consultant A |     0 |            NULL |
+| 21015004799 | consultant B |     0 |            NULL |
+| 21015005752 | consultant A |     0 |            NULL |
+| 21015007359 | consultant A |     0 |            NULL |
+| 21015008777 | consultant B |     0 |     11015034828 |
+| 21015008777 | consultant A |     1 |            NULL |
+| 21015009749 | trainee      |     0 |     11015097886 |
+| 21015009749 | consultant A |     1 |            NULL |
+| 21015012227 | trainee      |     0 |     11015077103 |
+| 21015012227 | consultant B |     1 |     11015093229 |
+| 21015012227 | director     |     2 |            NULL |
+| 21015014127 | consultant B |     0 |     11015049983 |
+| 21015014127 | consultant A |     1 |     11015093390 |
+| 21015014127 | director     |     2 |            NULL |
+| 21015015028 | consultant A |     0 |            NULL |
+| 21015018604 | trainee      |     0 |     11015035499 |
+| 21015018604 | consultant B |     1 |            NULL |
+| 21015021217 | director     |     0 |            NULL |
+| 21015021985 | trainee      |     0 |     11015096226 |
+| 21015021985 | consultant A |     1 |            NULL |
+| 21015022813 | consultant B |     0 |     11015064821 |
+| 21015022813 | director     |     1 |            NULL |
+| 21015026221 | consultant A |     0 |     11015028014 |
+| 21015026221 | director     |     1 |            NULL |
+| 21015026999 | consultant B |     0 |     11015080947 |
+| 21015026999 | consultant A |     1 |            NULL |
+| 21015028014 | director     |     0 |            NULL |
+| 21015030145 | trainee      |     0 |     11015059551 |
+| 21015030145 | consultant B |     1 |     11015055957 |
+| 21015030145 | consultant A |     2 |            NULL |
+| 21015032143 | consultant A |     0 |            NULL |
+| 21015034828 | consultant A |     0 |            NULL |
+| 21015035499 | consultant B |     0 |            NULL |
+| 21015037317 | director     |     0 |            NULL |
+| 21015038307 | trainee      |     0 |     11015051194 |
+| 21015038307 | consultant A |     1 |            NULL |
+| 21015038469 | trainee      |     0 |     11015092541 |
+| 21015038469 | consultant B |     1 |     11015093390 |
+| 21015038469 | director     |     2 |            NULL |
+| 21015038487 | consultant B |     0 |            NULL |
+| 21015038780 | director     |     0 |            NULL |
+| 21015041650 | consultant B |     0 |     11015071644 |
+| 21015041650 | consultant A |     1 |            NULL |
+| 21015041990 | trainee      |     0 |     11015084328 |
+| 21015041990 | consultant A |     1 |     11015054930 |
+| 21015041990 | director     |     2 |            NULL |
+| 21015044951 | consultant B |     0 |            NULL |
+| 21015047725 | director     |     0 |            NULL |
+| 21015049983 | consultant A |     0 |     11015093390 |
+| 21015049983 | director     |     1 |            NULL |
+| 21015050587 | trainee      |     0 |     11015007359 |
+| 21015050587 | consultant A |     1 |            NULL |
+| 21015050998 | consultant B |     0 |     11015034828 |
+| 21015050998 | consultant A |     1 |            NULL |
+| 21015051194 | consultant A |     0 |            NULL |
+| 21015051979 | director     |     0 |            NULL |
+| 21015052371 | trainee      |     0 |     11015021217 |
+| 21015052371 | director     |     1 |            NULL |
+| 21015052923 | consultant B |     0 |            NULL |
+| 21015054930 | director     |     0 |            NULL |
+| 21015055957 | consultant A |     0 |            NULL |
+| 21015058240 | consultant B |     0 |            NULL |
+| 21015059551 | consultant B |     0 |     11015055957 |
+| 21015059551 | consultant A |     1 |            NULL |
+| 21015061156 | consultant B |     0 |            NULL |
+| 21015064821 | director     |     0 |            NULL |
+| 21015065571 | trainee      |     0 |     11015099063 |
+| 21015065571 | consultant B |     1 |     11015087307 |
+| 21015065571 | director     |     2 |            NULL |
+| 21015066455 | trainee      |     0 |     11015055957 |
+| 21015066455 | consultant A |     1 |            NULL |
+| 21015066473 | consultant A |     0 |     11015073624 |
+| 21015066473 | director     |     1 |            NULL |
+| 21015069871 | trainee      |     0 |     11015066473 |
+| 21015069871 | consultant A |     1 |     11015073624 |
+| 21015069871 | director     |     2 |            NULL |
+| 21015071644 | consultant A |     0 |            NULL |
+| 21015071902 | consultant A |     0 |            NULL |
+| 21015072803 | consultant A |     0 |            NULL |
+| 21015073624 | director     |     0 |            NULL |
+| 21015074151 | consultant B |     0 |            NULL |
+| 21015074295 | consultant A |     0 |     11015093390 |
+| 21015074295 | director     |     1 |            NULL |
+| 21015074357 | consultant A |     0 |     11015090696 |
+| 21015074357 | director     |     1 |            NULL |
+| 21015075524 | trainee      |     0 |     11015072803 |
+| 21015075524 | consultant A |     1 |            NULL |
+| 21015076159 | trainee      |     0 |     11015074295 |
+| 21015076159 | consultant A |     1 |     11015093390 |
+| 21015076159 | director     |     2 |            NULL |
+| 21015076514 | trainee      |     0 |     11015061156 |
+| 21015076514 | consultant B |     1 |            NULL |
+| 21015076952 | trainee      |     0 |     11015054930 |
+| 21015076952 | director     |     1 |            NULL |
+| 21015077103 | consultant B |     0 |     11015093229 |
+| 21015077103 | director     |     1 |            NULL |
+| 21015078843 | trainee      |     0 |     11015028014 |
+| 21015078843 | director     |     1 |            NULL |
+| 21015079227 | trainee      |     0 |     11015061156 |
+| 21015079227 | consultant B |     1 |            NULL |
+| 21015080947 | consultant A |     0 |            NULL |
+| 21015084328 | consultant A |     0 |     11015054930 |
+| 21015084328 | director     |     1 |            NULL |
+| 21015087307 | director     |     0 |            NULL |
+| 21015087637 | consultant A |     0 |            NULL |
+| 21015087931 | director     |     0 |            NULL |
+| 21015090696 | director     |     0 |            NULL |
+| 21015091203 | consultant A |     0 |     11015064821 |
+| 21015091203 | director     |     1 |            NULL |
+| 21015092541 | consultant B |     0 |     11015093390 |
+| 21015092541 | director     |     1 |            NULL |
+| 21015093229 | director     |     0 |            NULL |
+| 21015093390 | director     |     0 |            NULL |
+| 21015094727 | trainee      |     0 |     11015050998 |
+| 21015094727 | consultant B |     1 |     11015034828 |
+| 21015094727 | consultant A |     2 |            NULL |
+| 21015096226 | consultant A |     0 |            NULL |
+| 21015096645 | consultant B |     0 |     11015021217 |
+| 21015096645 | director     |     1 |            NULL |
+| 21015097001 | consultant B |     0 |            NULL |
+| 21015097886 | consultant A |     0 |            NULL |
+| 21015099063 | consultant B |     0 |     11015087307 |
+| 21015099063 | director     |     1 |            NULL |
+| 31015001337 | trainee      |     0 |     11015026999 |
+| 31015001337 | consultant B |     1 |     11015080947 |
+| 31015001337 | consultant A |     2 |            NULL |
+| 31015002336 | consultant B |     0 |     11015087931 |
+| 31015002336 | director     |     1 |            NULL |
+| 31015003022 | director     |     0 |            NULL |
+| 31015003086 | consultant A |     0 |            NULL |
+| 31015004762 | consultant A |     0 |            NULL |
+| 31015004799 | consultant B |     0 |            NULL |
+| 31015005752 | consultant A |     0 |            NULL |
+| 31015007359 | consultant A |     0 |            NULL |
+| 31015008777 | consultant B |     0 |     11015034828 |
+| 31015008777 | consultant A |     1 |            NULL |
+| 31015009749 | trainee      |     0 |     11015097886 |
+| 31015009749 | consultant A |     1 |            NULL |
+| 31015012227 | trainee      |     0 |     11015077103 |
+| 31015012227 | consultant B |     1 |     11015093229 |
+| 31015012227 | director     |     2 |            NULL |
+| 31015014127 | consultant B |     0 |     11015049983 |
+| 31015014127 | consultant A |     1 |     11015093390 |
+| 31015014127 | director     |     2 |            NULL |
+| 31015015028 | consultant A |     0 |            NULL |
+| 31015018604 | trainee      |     0 |     11015035499 |
+| 31015018604 | consultant B |     1 |            NULL |
+| 31015021217 | director     |     0 |            NULL |
+| 31015021985 | trainee      |     0 |     11015096226 |
+| 31015021985 | consultant A |     1 |            NULL |
+| 31015022813 | consultant B |     0 |     11015064821 |
+| 31015022813 | director     |     1 |            NULL |
+| 31015026221 | consultant A |     0 |     11015028014 |
+| 31015026221 | director     |     1 |            NULL |
+| 31015026999 | consultant B |     0 |     11015080947 |
+| 31015026999 | consultant A |     1 |            NULL |
+| 31015028014 | director     |     0 |            NULL |
+| 31015030145 | trainee      |     0 |     11015059551 |
+| 31015030145 | consultant B |     1 |     11015055957 |
+| 31015030145 | consultant A |     2 |            NULL |
+| 31015032143 | consultant A |     0 |            NULL |
+| 31015034828 | consultant A |     0 |            NULL |
+| 31015035499 | consultant B |     0 |            NULL |
+| 31015037317 | director     |     0 |            NULL |
+| 31015038307 | trainee      |     0 |     11015051194 |
+| 31015038307 | consultant A |     1 |            NULL |
+| 31015038469 | trainee      |     0 |     11015092541 |
+| 31015038469 | consultant B |     1 |     11015093390 |
+| 31015038469 | director     |     2 |            NULL |
+| 31015038487 | consultant B |     0 |            NULL |
+| 31015038780 | director     |     0 |            NULL |
+| 31015041650 | consultant B |     0 |     11015071644 |
+| 31015041650 | consultant A |     1 |            NULL |
+| 31015041990 | trainee      |     0 |     11015084328 |
+| 31015041990 | consultant A |     1 |     11015054930 |
+| 31015041990 | director     |     2 |            NULL |
+| 31015044951 | consultant B |     0 |            NULL |
+| 31015047725 | director     |     0 |            NULL |
+| 31015049983 | consultant A |     0 |     11015093390 |
+| 31015049983 | director     |     1 |            NULL |
+| 31015050587 | trainee      |     0 |     11015007359 |
+| 31015050587 | consultant A |     1 |            NULL |
+| 31015050998 | consultant B |     0 |     11015034828 |
+| 31015050998 | consultant A |     1 |            NULL |
+| 31015051194 | consultant A |     0 |            NULL |
+| 31015051979 | director     |     0 |            NULL |
+| 31015052371 | trainee      |     0 |     11015021217 |
+| 31015052371 | director     |     1 |            NULL |
+| 31015052923 | consultant B |     0 |            NULL |
+| 31015054930 | director     |     0 |            NULL |
+| 31015055957 | consultant A |     0 |            NULL |
+| 31015058240 | consultant B |     0 |            NULL |
+| 31015059551 | consultant B |     0 |     11015055957 |
+| 31015059551 | consultant A |     1 |            NULL |
+| 31015061156 | consultant B |     0 |            NULL |
+| 31015064821 | director     |     0 |            NULL |
+| 31015065571 | trainee      |     0 |     11015099063 |
+| 31015065571 | consultant B |     1 |     11015087307 |
+| 31015065571 | director     |     2 |            NULL |
+| 31015066455 | trainee      |     0 |     11015055957 |
+| 31015066455 | consultant A |     1 |            NULL |
+| 31015066473 | consultant A |     0 |     11015073624 |
+| 31015066473 | director     |     1 |            NULL |
+| 31015069871 | trainee      |     0 |     11015066473 |
+| 31015069871 | consultant A |     1 |     11015073624 |
+| 31015069871 | director     |     2 |            NULL |
+| 31015071644 | consultant A |     0 |            NULL |
+| 31015071902 | consultant A |     0 |            NULL |
+| 31015072803 | consultant A |     0 |            NULL |
+| 31015073624 | director     |     0 |            NULL |
+| 31015074151 | consultant B |     0 |            NULL |
+| 31015074295 | consultant A |     0 |     11015093390 |
+| 31015074295 | director     |     1 |            NULL |
+| 31015074357 | consultant A |     0 |     11015090696 |
+| 31015074357 | director     |     1 |            NULL |
+| 31015075524 | trainee      |     0 |     11015072803 |
+| 31015075524 | consultant A |     1 |            NULL |
+| 31015076159 | trainee      |     0 |     11015074295 |
+| 31015076159 | consultant A |     1 |     11015093390 |
+| 31015076159 | director     |     2 |            NULL |
+| 31015076514 | trainee      |     0 |     11015061156 |
+| 31015076514 | consultant B |     1 |            NULL |
+| 31015076952 | trainee      |     0 |     11015054930 |
+| 31015076952 | director     |     1 |            NULL |
+| 31015077103 | consultant B |     0 |     11015093229 |
+| 31015077103 | director     |     1 |            NULL |
+| 31015078843 | trainee      |     0 |     11015028014 |
+| 31015078843 | director     |     1 |            NULL |
+| 31015079227 | trainee      |     0 |     11015061156 |
+| 31015079227 | consultant B |     1 |            NULL |
+| 31015080947 | consultant A |     0 |            NULL |
+| 31015084328 | consultant A |     0 |     11015054930 |
+| 31015084328 | director     |     1 |            NULL |
+| 31015087307 | director     |     0 |            NULL |
+| 31015087637 | consultant A |     0 |            NULL |
+| 31015087931 | director     |     0 |            NULL |
+| 31015090696 | director     |     0 |            NULL |
+| 31015091203 | consultant A |     0 |     11015064821 |
+| 31015091203 | director     |     1 |            NULL |
+| 31015092541 | consultant B |     0 |     11015093390 |
+| 31015092541 | director     |     1 |            NULL |
+| 31015093229 | director     |     0 |            NULL |
+| 31015093390 | director     |     0 |            NULL |
+| 31015094727 | trainee      |     0 |     11015050998 |
+| 31015094727 | consultant B |     1 |     11015034828 |
+| 31015094727 | consultant A |     2 |            NULL |
+| 31015096226 | consultant A |     0 |            NULL |
+| 31015096645 | consultant B |     0 |     11015021217 |
+| 31015096645 | director     |     1 |            NULL |
+| 31015097001 | consultant B |     0 |            NULL |
+| 31015097886 | consultant A |     0 |            NULL |
+| 31015099063 | consultant B |     0 |     11015087307 |
+| 31015099063 | director     |     1 |            NULL |
+| 41015001337 | trainee      |     0 |     11015026999 |
+| 41015001337 | consultant B |     1 |     11015080947 |
+| 41015001337 | consultant A |     2 |            NULL |
+| 41015002336 | consultant B |     0 |     11015087931 |
+| 41015002336 | director     |     1 |            NULL |
+| 41015003022 | director     |     0 |            NULL |
+| 41015003086 | consultant A |     0 |            NULL |
+| 41015004799 | consultant B |     0 |            NULL |
+| 41015007359 | consultant A |     0 |            NULL |
+| 41015008777 | consultant B |     0 |     11015034828 |
+| 41015008777 | consultant A |     1 |            NULL |
+| 41015012227 | trainee      |     0 |     11015077103 |
+| 41015012227 | consultant B |     1 |     11015093229 |
+| 41015012227 | director     |     2 |            NULL |
+| 41015014127 | consultant B |     0 |     11015049983 |
+| 41015014127 | consultant A |     1 |     11015093390 |
+| 41015014127 | director     |     2 |            NULL |
+| 41015015028 | consultant A |     0 |            NULL |
+| 41015018604 | trainee      |     0 |     11015035499 |
+| 41015018604 | consultant B |     1 |            NULL |
+| 41015021985 | trainee      |     0 |     11015096226 |
+| 41015021985 | consultant A |     1 |            NULL |
+| 41015022813 | consultant B |     0 |     11015064821 |
+| 41015022813 | director     |     1 |            NULL |
+| 41015026221 | consultant A |     0 |     11015028014 |
+| 41015026221 | director     |     1 |            NULL |
+| 41015026999 | consultant B |     0 |     11015080947 |
+| 41015026999 | consultant A |     1 |            NULL |
+| 41015030145 | trainee      |     0 |     11015059551 |
+| 41015030145 | consultant B |     1 |     11015055957 |
+| 41015030145 | consultant A |     2 |            NULL |
+| 41015032143 | consultant A |     0 |            NULL |
+| 41015034828 | consultant A |     0 |            NULL |
+| 41015035499 | consultant B |     0 |            NULL |
+| 41015037317 | director     |     0 |            NULL |
+| 41015038307 | trainee      |     0 |     11015051194 |
+| 41015038307 | consultant A |     1 |            NULL |
+| 41015038469 | trainee      |     0 |     11015092541 |
+| 41015038469 | consultant B |     1 |     11015093390 |
+| 41015038469 | director     |     2 |            NULL |
+| 41015038780 | director     |     0 |            NULL |
+| 41015041650 | consultant B |     0 |     11015071644 |
+| 41015041650 | consultant A |     1 |            NULL |
+| 41015041990 | trainee      |     0 |     11015084328 |
+| 41015041990 | consultant A |     1 |     11015054930 |
+| 41015041990 | director     |     2 |            NULL |
+| 41015044951 | consultant B |     0 |            NULL |
+| 41015050587 | trainee      |     0 |     11015007359 |
+| 41015050587 | consultant A |     1 |            NULL |
+| 41015050998 | consultant B |     0 |     11015034828 |
+| 41015050998 | consultant A |     1 |            NULL |
+| 41015051194 | consultant A |     0 |            NULL |
+| 41015051979 | director     |     0 |            NULL |
+| 41015052923 | consultant B |     0 |            NULL |
+| 41015054930 | director     |     0 |            NULL |
+| 41015055957 | consultant A |     0 |            NULL |
+| 41015058240 | consultant B |     0 |            NULL |
+| 41015059551 | consultant B |     0 |     11015055957 |
+| 41015059551 | consultant A |     1 |            NULL |
+| 41015061156 | consultant B |     0 |            NULL |
+| 41015066473 | consultant A |     0 |     11015073624 |
+| 41015066473 | director     |     1 |            NULL |
+| 41015069871 | trainee      |     0 |     11015066473 |
+| 41015069871 | consultant A |     1 |     11015073624 |
+| 41015069871 | director     |     2 |            NULL |
+| 41015071644 | consultant A |     0 |            NULL |
+| 41015071902 | consultant A |     0 |            NULL |
+| 41015072803 | consultant A |     0 |            NULL |
+| 41015073624 | director     |     0 |            NULL |
+| 41015074295 | consultant A |     0 |     11015093390 |
+| 41015074295 | director     |     1 |            NULL |
+| 41015074357 | consultant A |     0 |     11015090696 |
+| 41015074357 | director     |     1 |            NULL |
+| 41015076159 | trainee      |     0 |     11015074295 |
+| 41015076159 | consultant A |     1 |     11015093390 |
+| 41015076159 | director     |     2 |            NULL |
+| 41015077103 | consultant B |     0 |     11015093229 |
+| 41015077103 | director     |     1 |            NULL |
+| 41015078843 | trainee      |     0 |     11015028014 |
+| 41015078843 | director     |     1 |            NULL |
+| 41015079227 | trainee      |     0 |     11015061156 |
+| 41015079227 | consultant B |     1 |            NULL |
+| 41015080947 | consultant A |     0 |            NULL |
+| 41015087307 | director     |     0 |            NULL |
+| 41015087931 | director     |     0 |            NULL |
+| 41015090696 | director     |     0 |            NULL |
+| 41015091203 | consultant A |     0 |     11015064821 |
+| 41015091203 | director     |     1 |            NULL |
+| 41015092541 | consultant B |     0 |     11015093390 |
+| 41015092541 | director     |     1 |            NULL |
+| 41015093229 | director     |     0 |            NULL |
+| 41015093390 | director     |     0 |            NULL |
+| 41015094727 | trainee      |     0 |     11015050998 |
+| 41015094727 | consultant B |     1 |     11015034828 |
+| 41015094727 | consultant A |     2 |            NULL |
+| 41015096645 | consultant B |     0 |     11015021217 |
+| 41015096645 | director     |     1 |            NULL |
+| 41015097886 | consultant A |     0 |            NULL |
+| 41015099063 | consultant B |     0 |     11015087307 |
+| 41015099063 | director     |     1 |            NULL |
++-------------+--------------+-------+-----------------+
+490 rows in set (0.003 sec)

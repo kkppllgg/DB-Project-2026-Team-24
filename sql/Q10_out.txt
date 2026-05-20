@@ -1,0 +1,8 @@
++-------------+---------------------+-----------+
+| substance_1 | substance_2         | frequency |
++-------------+---------------------+-----------+
+| Ibuprofen   | Paracetamol         |         7 |
+| Amlodipine  | Amlodipine Besilate |         6 |
+| Ibuprofen   | Latanoprost         |         5 |
++-------------+---------------------+-----------+
+3 rows in set (0.306 sec)
