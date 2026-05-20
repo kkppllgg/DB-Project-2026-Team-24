@@ -40,6 +40,7 @@ COLLATE utf8mb4_unicode_ci;
 USE ygeiopolis;
 ```
 
+Ο PHPMYADMIN δεν επιτρέπει disable foreign key checks για το doctor (που κανει reference τον εαυτό του) οπότε πρέπει να τρέξει από terminal  όπου τρέχει χωρίς σφάλματα ή προειδοποιήσεις ή άλλο προγραμμα (η phpmyadmin με κατάλληλη επιτρεψη).
 Επιπλέον, όλα τα αρχεία .csv πρέπει να τοποθετηθούν σε φάκελο με το εξής μονοπάτι: **C:/xampp/htdocs/csv_imports/**
 
 Για τη λειτουργία της εφαρμογής, η βάση δεδομένων πρέπει να είναι ονοματισμένη **ygeiopolis**, οπως υποδεικνύεται στο db_connection.php
